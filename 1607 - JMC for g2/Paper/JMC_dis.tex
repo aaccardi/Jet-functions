@@ -96,9 +96,9 @@ In this definition, $l$ is the quark four-momentum, $\Psi$ the quark field opera
   \centering
   (a)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram0}
   \hfill
-  (b)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram1}
+  (b)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram2}
   \hfill
-  (c)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram2}
+  (c)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram1}
   \caption{Diagrams contributing to DIS scattering up to twist-3 expansion, including a jet correlator in the top part. Note the gluon attaches to both the nucleon and jet correlators. The Hermitian conjugates of diagrams (b) and (c), i.e., with gluons attaching to the right of the cut, are not shown.
   }
   \label{fig:handbags}
@@ -213,7 +213,7 @@ vacuum as depicted in Figs.\ref{fig:handbags}(b) and (c), respectively.
 In the former the $\xi_1$ terms contribute to $O(1/Q^2)$, so that up $O(1/Q)$
 these give the same contribution as in the conventional handbag calculation.  
 
-The novel element in our analysis is the jet quark-gluon quark correlators
+The novel element in our analysis is the jet's quark-gluon-quark correlator
 $\Xi_A^{\mu}(l,k)$ in diagrams \ref{fig:handbags}(c), 
 \begin{equation} 
 \begin{split} 
@@ -231,38 +231,46 @@ $\Xi_A^{\mu}(l,k)$ in diagrams \ref{fig:handbags}(c),
 \label{e:xi_A}
 \end{split} 
 \end{equation}  
-These diagrams are not only important to account for all contribution of order $O(1/Q)$, but also in restoring up to twist-3 the gauge invariance broken in diagram \ref{fig:handbags}(a) by the different mass of the incoming and outgoing quark lines, namely, $m_q \neq \mj$.
+This diagram and its hermitian conugate are not only important to account for all contribution of order $O(1/Q)$, but also in restoring up to twist-3 the gauge invariance broken in diagram \ref{fig:handbags}(a) by the different mass of the incoming and outgoing quark lines, namely, $m_q \neq \mj$.
 
 Rather than directly using the definition \eqref{e:xi_A}, it is convenient to calculate the inclusive cross section as an integral of the semi-inclusive one, utilize the QCD equation of motions and furthermore summed over all hadron flavors, and take advantage of 
 \begin{align}
   \label{eq:SIDIS_to_DIS}
   \sum_h \int \frac{d^3p_h}{(2\pi)2E_h} \Delta^h(l,p_h) = \Xi(l) \ , 
 \end{align}
-where $\Delta^h$ is the quark fragmentation correlator for production of a hadron of flavor $h$ and momentum $p_h$ \cite{New_testament}. 
+where $\Delta^h$ is the quark fragmentation correlator for production of a hadron of flavor $h$ and momentum $p_h$ \cite{New_testament}. In terms of the TMD fragmentation functions we are interested in, this reads
+\begin{align}
+  \label{eq:SIDIS_to_DIS_TMDlevel}
+  \sum_h \int dz d^2p_{hT} z D_1^h(z,p_{hT}) & = \xi_2 = 1   \\
+  \sum_h \int dz d^2p_{hT} E(z,p_{hT}) & = \xi_1 \ ,
+\end{align}
+where $D_1^h(z,p_{hT})$ is the twist-2 quark fragmentation function as a function of the hadron's collinear momentum fraction $z$ and transverse momentum $p_{hT}$, and $\tilde E^h(z,p_{hT})$ is a chiral-odd twist-3 function defined in \cite{New-testament}.
+
+
+
+
+
 % As we shall see, an analogous formula for quark-gluon-quark correlators is not needed.
-The $\xi_1$ term is chiral-odd and therefore can appear in the inclusive cross section only coupled to the transversity function $h_1$. Therefore, for our analysis the relevant part of the semi-inclusive hadronic tensor is 
+%The $\xi_1$ term is chiral-odd and therefore can appear in the inclusive cross section only coupled to the transversity function $h_1$. Therefore, for our analysis 
+The relevant part of the semi-inclusive hadronic tensor for our analysis is 
 \todo{[AA] I am using the notation in Piet Mulder's lecture notes - this will need to be checked. Decide also if we want this at parton or charge-weighted level.}
 \begin{align}
   \label{eq:Wsidis_ini}
-  2 \Lambda \sum_h \int dz d^2p_{hT} = i \frac{2\Lambda}{Q} 
+  2 \Lambda \sum_h \int dz d^2p_{hT} W^{\mu\nu}_{\text{SIDIS}}(z,p_{hT}) 
+    & = i \frac{2\Lambda}{Q} 
     \hat t^{[\mu} \epsilon_\perp^{\nu]\rho}S_{\perp\rho} 
-    \Big[ 2 x_b g_T(x_B) \sum_h \int dz d^2p_{hT} D_1^h(z)
-    + 2 h_1(x_B) \sum_h \int dz d^2p_{hT} \tilde E^h(z) \Big] + \ldots
+    \Big[ 2 x_b g_T(x_B) \sum_h \int dz d^2p_{hT} D_1^h(z,p_{hT}) \\
+  & + 2 h_1(x_B,p_{hT}) \sum_h \int dz d^2p_{hT} \tilde E^h(z,p_{hT}) \Big] + \ldots
 \end{align}
-where $D_1^h$ is the twist-2 quark fragmentation function as a function of the hadron's collinear momentum fraction $z$, and $\tilde E^h$ is a twist-3 function defined in \cite{New-testament}. The former can be easily integrated with the help of the sum rule \eqref{eq:SIDIS_to_DIS}:
+The first term can be easily integrated with the help of the sum rule \eqref{eq:SIDIS_to_DIS_TMDlevel}. To integrate the latter, we first need make use of the relation $\tilde E(z) = E(z) - (m_q/\Lambda) z D_1(z)$, which is a consequence of the QCD equations of motion \cite{New-testament}, then utilize the sum rule \eqref{eq:SIDIS_to_DIS}:
 \begin{align}
-  \sum_h \int dz d^2p_{hT} z D_1^h(z) = \xi_2 = 1 \ .
-\end{align}
-To integrate the latter, we first make use of the relation \cite{New-testament}
-$\tilde E(z) = E(z) - m_q z D_1(z)$, which is a consequence of the QCD equations of motion, so that 
-\begin{align}
-  \sum_h \int dz d^2p_{hT} \tilde E(z) 
-    = \sum_h \int dz d^2p_{hT} \Big[ E(z) - \frac{m_q}{\Lambda} z D_1z \Big]
+  \sum_h \int dz d^2p_{hT} \tilde E(z,p_{hT}) 
+    = \sum_h \int dz d^2p_{hT} \Big[ E(z,p_{hT}) - \frac{m_q}{\Lambda} z D_1(z,p_{hT}) \Big]
     = \xi_1 - \frac{m_q}{\Lambda} \xi_2 = \frac{\mj - m_q}{\Lambda} \ .
 \end{align}
-This formula is the single most important result of this paper.
+This formula is the single most important result of this paper. 
 
-Finally, with suitable projections of the hadronic tensor, the inclusive cross section up to order $M/Q$ turns out to be
+Finally, with suitable projections of the hadronic tensor, the inclusive cross section up to order $M/Q$ can be written as
 \begin{align}
 \frac{d\sigma}{d\xbj \, dy\, d\psi}
 %&
@@ -280,7 +288,7 @@ F_{LL}
 + |\bm{S}_\perp| \lambda_e\, \sqrt{2\,\varepsilon (1-\varepsilon)}\, 
   \cos\phi_S\, 
 F_{LT}^{\cos \phi_S}
- \biggr\},
+ \biggr\} \ ,
 \label{e:crossdis}
 \end{align}
 where the structure functions on the right hand side are defined as
@@ -299,11 +307,11 @@ F_{LT}^{\cos \phi_S}&=-\xbj\,\sum_a e_a^2\, \frac{2\Lambda}{Q}\,
    + \frac{\mj -m_q}{\Lambda} \, h_{1}^a(\xbj) \biggr).
 \label{e:FLTint}
 \end{align}
-The second term in the last struture function is a new result from our
+The second term in the last structure function is a new result from our
 analysis; it is not suppressed as an inverse power of $Q$, and therefore
 survives even in the Bjorken limit. Note that calculating the jet correlator
 on the perturbative vacuum one would obtain, as already discussed, $\mj=m_q$
-and the new term vanishes as it should. However, on the non-perturbative
+and the new term wouls vanishe, as it should. However, on the non-perturbative
 vacuum the jet mass is larger than the quark's, and this contributes a
 non-negligible term to the twist-3 part of the $g_2$ function, as we shall
 discuss in the next section.  
