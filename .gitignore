@@ -1,1 +1,7 @@
 .dvi
+.log
+.blg
+desktop.ini
+.directory
+.directory.lock
+*~
