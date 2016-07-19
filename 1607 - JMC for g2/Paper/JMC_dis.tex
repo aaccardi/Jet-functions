@@ -8,13 +8,18 @@
 \usepackage{amssymb}          % AMS symbols
 \usepackage{bm}               % bold math
 \usepackage{graphicx}         % PostScript figures
+\usepackage[export]{adjustbox}% to align images
 \usepackage{hhline,multirow}  % for nicer tables
 \usepackage{dcolumn}          % Align table columns on decimal point
 \usepackage{slashed}
 \usepackage{datetime}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
 
 %%%%%% for draft
 \newcommand{\todo}[1]{\marginpar{$\bullet$}\textbf{#1}}
+\def\AAcom#1{{\bf  \textcolor{Red}{[AA: {#1}]}}}
+\def\AAmod#1{{\textcolor{Green}{#1}}}
 
 %%%%%%  Definitions   %%%%%%%%%%%
   
@@ -87,6 +92,18 @@ Motivated by large-$x$ mass corrections to inclusive DIS structure functions, Ac
 \end{align} 
 In this definition, $l$ is the quark four-momentum, $\Psi$ the quark field operator, and $\|0\rangle$ is the nonperturbative vacuum. Furthermore, we explicitly guarantee the correlator's gauge invariance by introducing two Wilson line operators ${\cal U}^{n_+}$ along a light-cone plus direction determined by the vector $n_+$. This path choice for the Wilson line is required by QCD factorization theorems, and the vector will be determined by the particular hard process to which the jet correlator contributes. For example, in the case of inclusive DIS discussed in this paper, this is determined by the four momentum transfer $q$ and the proton's momentum $p$.
 
+\begin{figure*}
+  \centering
+  (a)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram0}
+  \hfill
+  (b)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram1}
+  \hfill
+  (c)\includegraphics[width=0.3\linewidth,valign=t]{jetdiagram2}
+  \caption{Diagrams contributing to DIS scattering up to twist-3 expansion, including a jet correlator in the top part. Note the gluon attaches to both the nucleon and jet correlators. The Hermitian conjugates of diagrams (b) and (c), i.e., with gluons attaching to the right of the cut, are not shown.
+  }
+  \label{fig:handbags}
+\end{figure*}
+
 The correlator $\Xi$ can be parametrized in terms of scalar functions, using the vectors $l$ and $n_+$ 
 \begin{equation}
 \Xi(l,n_+) = \Lambda A_1(l^2)\,{\bm 1} + A_2(l^2)\,\lslash 
@@ -100,7 +117,7 @@ focus on the role of chiral odd terms in the $g_2$ structure function up to
 twist 3.  At this order, 
 \begin{equation}
   \Xi(l,n_+) = \Lambda A_1(l^2)\,{\bm 1} + A_2(l^2)\,\lslash 
-    + O(\Lambda/Q^2)
+    + O(\Lambda^2/Q^2)
 \label{e:jetexpansion-tw3}
 \end{equation} 
 is nothing else than the full quark propagator; note however, that we consider
@@ -110,7 +127,7 @@ The $A_1$ and $A_2$ terms can be nicely interpreted in terms of the spectral rep
 \begin{align} 
   \Xi(l) =  
   \int d \mu^2 \big[ J_1 (\mu^2)\,\mu + J_2 (\mu^2)\,\lslash \big] \,
-  \delta(l^2 -m_j^2) \ ,
+  \delta(l^2 -\mu_j^2) \ ,
 \label{e:jetspectral}
 \end{align}
 where $\mu^2$ is interpreted as the invariant mass of the current jet, {\it i.e.}, of the particles going through the cut in the top blob of Fig.\ref{fig:handabgs}(a), and the $J_i$ are the spectral functions of the quark propagator, that have been also called ``jet functions'' in \cite{Accardi-Qiu}. These satisfy \cite{D'Hoker-lecture-notes,Romao-lecture-notes}
@@ -126,20 +143,22 @@ From a comparison of Eqns.\eqref{e:jetexpansion} and \eqref{e:jetspectral}, one 
   \label{eq:jet_vs_spectral}
 \end{align}
 
-When inserting the jet correlator in the handbag diagram for inclusive DIS, the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the $F_2$ structure function has been studied in Ref.~\cite{Accardi-Qiu}. In this paper we limit our attention to effects of order $O(1/Q)$ and therefore can extend the integration to $\mu^2=\infty$. For example, the unpolarized DIS structure function $F_2$ reads
+When inserting the jet correlator in the handbag diagram for inclusive DIS, the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the $F_2$ structure function has been studied in Ref.~\cite{Accardi-Qiu}; for example, 
+teh structure function $F_2$ reads
 \begin{align}
-  F_2(x_B) & = \int_0^{Q^2(1/x_B-1)}d\mu^2\, J_2(\mu^2) F_2^{(0)}(x_B(1+\mu^2/Q^2),Q^2)  \\
-  & = \Big( \int_0^\infty d\mu^2\, J_2(\mu^2) \Big) F_2^{(0)}(x_B,Q^2) 
-     + O(\Lambda^2/Q^2) \\
-  & = F_2^{(0)}(x_B,Q^2)  + O(\Lambda^2/Q^2) \ ,
+  F_2(x_B) & = \int_0^{Q^2(1/x_B-1)}d\mu^2\, J_2(\mu^2) F_2^{(0)}(x_B(1+\mu^2/Q^2),Q^2) \ ,
 \label{eq:F2}
 \end{align}
-where $F_2^{(0)}$ is the structure function calculated with the handbag diagram sporting a bare quark propagator instead of the jet correlator.
-At this order the jet function $J_2$ decouples and thanks to the sum rule \eqref{eq:jetfnsprops} it integrates to 1, so that one recovers the conventional result. The same holds true also for the helicity structure function $g_1$.
+where $F_2^{(0)}$ is the structure function calculated with the handbag diagram sporting a bare quark propagator instead of the jet correlator, and $\xi=2x_B/(1+\sqrt{1+4x_B^2M^2/Q^2})$ with $M$ the nucleon's mass is the Nachtmann scaling variable.  In this paper we limit our attention to effects of order $O(1/Q)$ and therefore can extend the integration to $\mu^2=\infty$. Therefore jet function $J_2$ decouples, and thanks to the sum rule \eqref{eq:jetfnsprops} integrates to 1. One then recovers the conventional result.
+\begin{align}
+  F_2(x_B) = \Big[ \int_0^\infty d\mu^2\, J_2(\mu^2) \Big] F_2^{(0)}(x_B,Q^2) 
+     + O(\Lambda^2/Q^2) = F_2^{(0)}(x_B,Q^2)  + O(\Lambda^2/Q^2) \ .
+\end{align}
+The same holds true also for the helicity structure function $g_1$.
 %
-More in general, the jet correlator decouples from the parton correlator $\Phi$ in inclusive cross section calculation up to $O(1/Q)$, on which we are focusing the attention in this paper, and the inclusive structure functions depend on the integrated jet correlator
+More in general, the jet correlator decouples from the parton correlator $\Phi$ in any inclusive cross section calculation up to $O(1/Q)$, and the inclusive structure functions only depend on the integrated jet correlator
 \begin{equation} 
-  \Xi \equiv \int \frac{dl^2}{2l^-} d^2 l_T \, \Xi(l) 
+  \Xi(l^-) \equiv \int \frac{dl^2}{2l^-} d^2 l_T \, \Xi(l) 
     =  \frac{\Lambda}{2 l^-}\,\xi_1 {\bm 1}
     +  \xi_2 \frac{\nslash_-}{2} 
     + \text{higher\ twists}
@@ -147,6 +166,7 @@ More in general, the jet correlator decouples from the parton correlator $\Phi$ 
     % + i \frac{\Lambda}{2 l^-} \xi_4 
     % \frac{ \bigl[\nslash_-, \nslash_+ \bigr]}{2}.
 \end{equation} 
+\AAcom{We need to discuss what happens to the B functions!! See e-mail from Jul 7th, 2015, for ideas.}
 where 
 \begin{align}
 \xi_1 &= \int d\mu^2 \frac{\mu}{\Lambda} J_1(\mu^2) 
