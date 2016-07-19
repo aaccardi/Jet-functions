@@ -1,0 +1,310 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.12.23)  10 JUL 2015 16:44
+entering extended mode
+**JMC_dis_Bacchetta
+(./JMC_dis_Bacchetta.tex
+LaTeX2e <2008/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/sw/share/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
+cumentation)
+ Copyright (c) 2001 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <ogawa@teleport.com>
+ Based on work by David Carlisle <david@dcarlisle.demon.co.uk>.
+ltxutil: portions licensed from W. E. Baxter (web@superscript.com)
+Class revtex4 Info: Repairing broken LateX \@sect on input line 596.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4 Info: Repairing broken LaTeX \@xbitor on input line 1610.
+ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
+\c@linecount=\count81
+\output=\toks14
+\@protection@box=\box27
+\@topmark@saved=\toks15
+\footins@saved=\box28
+\pagesofar=\box29
+\footbox=\box30
+\pagegrid@col=\count82
+Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
+ly upper/lower case changing (DPC)]. on input line 3682.
+(/sw/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+\c@affil=\count83
+\absbox=\box31
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\c@figure=\count90
+\c@table=\count91
+
+(/sw/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count92
+)
+\widetext@top=\box32
+\widetext@bot=\box33
+
+(/sw/share/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
+tion)
+LaTeX Info: Redefining \REV@mathfrak on input line 118.
+))
+
+Class revtex4 Warning: No Society specified, using generic APS style.
+
+(/sw/share/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+n)
+)
+(/sw/share/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
+on)
+)
+(/sw/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/sw/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/sw/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen102
+))
+(/sw/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen103
+)
+(/sw/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip11
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks19
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/sw/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+LaTeX Info: Redefining \frak on input line 135.
+LaTeX Info: Redefining \Bbb on input line 137.
+))
+(/sw/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
+)
+(/sw/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/sw/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/sw/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/sw/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/sw/share/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
+)
+(/sw/share/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen113
+)
+(/sw/share/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/sw/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks22
+\extratabsurround=\skip48
+\backup@length=\skip49
+))
+(/sw/share/texmf-dist/tex/latex/carlisle/slashed.sty
+Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
+) (./JMC_dis_Bacchetta.aux)
+\openout1 = `JMC_dis_Bacchetta.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+Class revtex4 Info: Patching array package. on input line 35.
+Class revtex4 Info: cite was not loaded (OK!) on input line 35.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 35.
+(/sw/share/texmf-dist/tex/context/base/supp-pdf.tex
+(/sw/share/texmf-dist/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count106
+\scratchcounter=\count107
+\scratchtoks=\toks23
+\scratchdimen=\dimen116
+\scratchskip=\skip50
+\scratchmuskip=\muskip12
+\scratchbox=\box36
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen117
+\onepoint=\dimen118
+\onebasepoint=\dimen119
+\minusone=\count108
+\thousandpoint=\dimen120
+\onerealpoint=\dimen121
+\emptytoks=\toks24
+\nextbox=\box37
+\nextdepth=\dimen122
+\everyline=\toks25
+\!!counta=\count109
+\!!countb=\count110
+\recursecounter=\count111
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen123
+\MPnumerator=\count115
+\everyMPtoPDFconversion=\toks26
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+ (/sw/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+
+Package natbib Warning: Citation `Bacchetta:2008' on page 1 undefined on input 
+line 72.
+
+[1{/Users/bacchett/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+Package natbib Warning: Citation `Mulders:1995dh' on page 3 undefined on input 
+line 342.
+
+[3] <selfen_cut.pdf, id=65, 241.90375pt x 122.4575pt>
+File: selfen_cut.pdf Graphic file (type pdf)
+ <use selfen_cut.pdf>
+<selfen_gluon_cut.pdf, id=66, 241.90375pt x 126.4725pt>
+File: selfen_gluon_cut.pdf Graphic file (type pdf)
+
+<use selfen_gluon_cut.pdf> [4 <./selfen_cut.pdf> <./selfen_gluon_cut.pdf>]
+No file JMC_dis_Bacchetta.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[5] (./JMC_dis_Bacchetta.aux) ) 
+Here is how much of TeX's memory you used:
+ 3549 strings out of 94500
+ 42504 string characters out of 1176113
+ 121277 words of memory out of 1500000
+ 6671 multiletter control sequences out of 10000+50000
+ 14707 words of font info for 54 fonts, out of 1200000 for 2000
+ 580 hyphenation exceptions out of 8191
+ 31i,20n,24p,252b,236s stack positions out of 5000i,500n,6000p,200000b,5000s
+PDF statistics:
+ 114 PDF objects out of 65536
+ 0 named destinations out of 20000
+ 11 words of extra memory for PDF output out of 65536
+</sw/share/texmf-dist/fonts/type1/bluesky/cm/cmm
+i12.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy5.pfb></sw/share/texmf
+-dist/fonts/type1/bluesky/cm/cmr5.pfb></sw/share/texmf-dist/fonts/type1/bluesky
+/cm/cmti10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi5.pfb></sw/shar
+e/texmf-dist/fonts/type1/bluesky/cm/cmmib10.pfb></sw/share/texmf-dist/fonts/typ
+e1/bluesky/cm/cmsy7.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmex10.pfb
+></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></sw/share/texmf-dist/
+fonts/type1/bluesky/cm/cmr7.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cm
+mi10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmbx10.pfb></sw/share/tex
+mf-dist/fonts/type1/bluesky/cm/cmbx9.pfb></sw/share/texmf-dist/fonts/type1/blue
+sky/cm/cmti9.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi6.pfb></sw/sh
+are/texmf-dist/fonts/type1/bluesky/cm/cmmi7.pfb></sw/share/texmf-dist/fonts/typ
+e1/bluesky/cm/cmr10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmbx12.pfb
+></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr9.pfb>
+Output written on JMC_dis_Bacchetta.pdf (5 pages, 203843 bytes).

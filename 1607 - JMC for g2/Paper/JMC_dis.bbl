@@ -1,0 +1,47 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Radici et~al.}(2015)\citenamefont{Radici, Courtoy,
+  Bacchetta, and Guagnelli}}]{Radici:2015mwa}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Guagnelli}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{1505}}, \bibinfo{pages}{123}
+  (\bibinfo{year}{2015}).
+%%CITATION = ARXIV:1503.03495;%%
+
+\bibitem[{\citenamefont{Anselmino et~al.}(2013)\citenamefont{Anselmino,
+  Boglione, D'Alesio, Melis, Murgia et~al.}}]{Anselmino:2013vqa}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Boglione}},
+  \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{D'Alesio}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Melis}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{Phys.Rev.}
+  \textbf{\bibinfo{volume}{D87}}, \bibinfo{pages}{094019}
+  (\bibinfo{year}{2013}).
+%%CITATION = ARXIV:1303.3822;%%
+
+\bibitem[{\citenamefont{Kang et~al.}(2015)\citenamefont{Kang, Prokudin, Sun,
+  and Yuan}}]{Kang:2015msa}
+\bibinfo{author}{\bibfnamefont{Z.-B.} \bibnamefont{Kang}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Prokudin}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Sun}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Yuan}}
+  (\bibinfo{year}{2015}), {arXiv:1505.05589 [hep-ph]}.
+%%CITATION = ARXIV:1505.05589;%%
+
+\end{thebibliography}
