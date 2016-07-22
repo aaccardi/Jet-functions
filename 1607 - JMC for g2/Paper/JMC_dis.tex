@@ -365,8 +365,8 @@ The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function
 \biggl(
     \widetilde g_T^{a \star}(x) 
     + \int_x^1\frac{dy}{y} \widehat{g}_T^q(y) 
-    + \frac{\mq}{\Lambda} (h_1^q/x)^\star(x) 
-    + \frac{\mj-\mq}{\Lambda} h_1^q(x) 
+    + \frac{\mq}{\Lambda} \left(\frac{h_1^q}{x}\right)^\star(x) 
+    + \frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x} 
 \Biggr) \ ,
 \end{align}
 where we defined $f^*(x) = -f(x) + \int_x^1\frac{dy}{y} f(y)$. The first 4
@@ -384,41 +384,45 @@ light quarks since it is proportional to $\mq=O$(1 MeV). In the latter term,
 new in our analysis, the transversity distribution is multiplied by a constant
 of $O$(100 MeV), and cannot be a priori neglected.
 
-To estimate the size of the last two terms in Eq.~\eqref{e:g2}, 
-we use a recent parametrization of the transversity distribution from
-Ref.~\cite{Radici:2015mwa}, which is comparable also to other
-extractions~\cite{Anselmino:2013vqa,Kang:2015msa}. We define the shorthand
-notation
+It is important to estimate the size of teh variou scontributions to the non Wandzura-Wilczek part of $g_2$. We define the shorthand notation
 \begin{align}
+g_2^{tw3} & = \frac{1}{2}\,\sum_a e_a^2
+    \biggl(
+    \widetilde g_T^{a \star}(x) 
+    + \int_x^1\frac{dy}{y} \widehat{g}_T^q(y) 
+    \biggr) 
+&
 g_2^{\text{quark}} &= \frac{1}{2}\,\sum_a e_a^2 
  \frac{\mq}{\Lambda} (h_1^q/x)^\star(x),
 &
 g_2^{\text{jet}} &= \frac{1}{2}\,\sum_a e_a^2 
-\frac{\mj-\mq}{\Lambda} h_1^q(x). 
+\frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x}. 
 \end{align} 
-We choose the values of the mass parameters to be $\mq=5$ MeV and 
-$\mj = 50$ MeV.
+These are comapred in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function obtained in the very recent JAM15 fit of polarized DIS asymmetries \cite{JAM15}, that includes a large amount of precise data at large $x$ from Jefferson Lab, and simultaneously fits the higher-twist components of in $g_1$ and $g_2$ to the data. For the ``pure twist-3'' contribution, $g_2^{tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix elements, we show a model calculation by Braun et al. \cite{Braun-et-al}; for other estimates, see \cite{Other-tw3-calcs}. To estimate the contributions from quark ($g_2^q$) and jet mass ($g_2^{jet}$) effects, that depend on chiral odd quark-quark matrix elements, we use the recent Pavia15 fit of the transversity distribution from Ref.~\cite{Radici:2015mwa}, which is comparable also to other
+extractions~\cite{Anselmino:2013vqa,Kang:2015msa}. Furthermore, we choose the values of the mass parameters to be $\mq=5$ MeV and $\mj = 100$ MeV.
 
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=8cm]{g2contrib}
-\caption{\label{f:g2contrib} 
-Different contributions to the non Wandzura-Wilczek part of the $g_2$ structure function compared to the JAM15 fit of $g_2-g_2^{\text{WW}}$ \cite{JAM15}.
-}
-\end{center}
-\end{figure}
+As one can see, in the proton case the pure twist-3 contribution is quite smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As expected, the quark-mass contribution is essentially negligible and cannot reconcile these two. Even though the uncertainties in the $h_1$ extraction and even more the estimate of $M_q$ are large, it is quite clear that the gap between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be explained by the new jet-mass contribution we discussed in this paper. 
+
+In the neutron case, the jet contribution is very negative at intermediate to large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$ calculation by Braun et al., one would conclude that the jet contribution cannot be that large. However, the latteris dominated by the $d$ quark's transversity, whose fit suffers from large systematic uncertainties and saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate, however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement with the JAM15 fit of the non Wandzura-Wilczek contribution to $g_2$.
+
 
 \begin{itemize}
-\item large-$x$: bridges Braun's pure twist-3 theory and the data
 \item smaller-$x$: constrains the small-$x$ behavior of transversity.
-\item in general, $g_2^{\text{quark}}$ is quite smaller than the other contribution, as customarily assumed.
 \end{itemize}
 Some ideas to check:
 \begin{itemize}
-\item JAM13 neutron has almost 0 twist 3, with small positive contribution at small x. Can we use this to highlight teh $g_2^{jet}$ contribution?
+\item JAM13 neutron has almost 0 twist 3, with small positive contribution at small x. Can we use this to highlight teh $g_2^{jet}$ contribution? Or maybe as a cnstrain: if Braun is right then $g_2^{jet}(n) \approx -g_2^{tw3}(n)$. (still, does not help much for the proton).
 \item In Jam 13, Fig. 6, it looks like in general the violation of teh BC sum rule is a small-x effect --> constraints on h(x) fits? This cannot really be checked vs. JAM15, that assumes $g_2^(0)$ respects BC. 
 \end{itemize}
 
+\begin{figure}[tbh]
+\begin{center}
+\includegraphics[width=8cm]{g2contrib}
+\caption{\label{f:g2contrib} 
+Different contributions to the non Wandzura-Wilczek part of the proton (left) and neutron (right) $g_2$ structure function compared to the JAM15 fit of the  $g_2-g_2^{\text{WW}}$ (solid black) \cite{JAM15}. The quark and jet contributions are shown with a dotted red and a dot-dashed green line respectively, with uncertainty bands coming form the Pavia15 fit of the transversity function \cite{Pavia15}. The pure twist-3 contribution calculated by Braun et al. \cite{Braun-et-al} is shown as a dashed blue line (no uncertainty estiamte was provided in teh original reference).
+}
+\end{center}
+\end{figure}
 
 
 Another consequence of the new chiral odd term induced by the non-vanishing of
