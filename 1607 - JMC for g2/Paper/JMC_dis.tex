@@ -422,7 +422,7 @@ extractions~\cite{Anselmino:2013vqa,Kang:2015msa}. Furthermore, we choose the va
 
 As one can see, in the proton case the pure twist-3 contribution is quite smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As expected, the quark-mass contribution is essentially negligible and cannot reconcile these two. Even though the uncertainties in the $h_1$ extraction and even more the estimate of $M_q$ are large, it is quite clear that the gap between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be explained by the new jet-mass contribution we discussed in this paper. 
 
-In the neutron case, the jet contribution is very negative at intermediate to large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$ calculation by Braun et al., one would conclude that the jet contribution cannot be that large. However, the latteris dominated by the $d$ quark's transversity, whose fit suffers from large systematic uncertainties and saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate, however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement with the JAM15 fit of the non Wandzura-Wilczek contribution to $g_2$.
+In the neutron case, the jet contribution is very negative at intermediate to large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$ calculation by Braun et al., one would conclude that the jet contribution cannot be that large. However, the latteris dominated by the $d$ quark's transversity, whose fit suffers from large systematic uncertainties and saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate, however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement with the JAM15 fit of the non Wandzura-Wilczek contribution to $g_2$. Correspondingly the jet contribution to the proton at $x \approx 0.1$ would become less positive, inproving as well teh agreement with the JAM15 fit.
 
 
 \begin{itemize}
@@ -437,22 +437,35 @@ Some ideas to check:
 \begin{figure}[tbh]
 \begin{center}
 \includegraphics[width=8cm]{g2contrib}
+\includegraphics[width=8cm]{g2contribN}
 \caption{\label{f:g2contrib} 
-Different contributions to the non Wandzura-Wilczek part of the proton (left) and neutron (right) $g_2$ structure function compared to the JAM15 fit of the  $g_2-g_2^{\text{WW}}$ (solid black) \cite{JAM15}. The quark and jet contributions are shown with a dotted red and a dot-dashed green line respectively, with uncertainty bands coming form the Pavia15 fit of the transversity function \cite{Pavia15}. The pure twist-3 contribution calculated by Braun et al. \cite{Braun-et-al} is shown as a dashed blue line (no uncertainty estiamte was provided in teh original reference).
+Different contributions to the non Wandzura-Wilczek part of the proton (left) and neutron (right) $g_2$ structure function compared to the JAM15 fit of the  $g_2-g_2^{\text{WW}}$ (solid black) \cite{JAM15}. The quark and jet contributions are shown with a dotted red and a dot-dashed green line respectively, with uncertainty bands coming form the Pavia15 fit of the transversity function \cite{Pavia15}. The unceratainty in the choice $m_q=5$ GeV and $M_q=100$ GeV is not shown. The pure twist-3 contribution calculated by Braun et al. \cite{Braun-et-al} is shown as a dashed blue line (no uncertainty estiamte was provided in teh original reference).
 }
 \end{center}
 \end{figure}
 
+It is interesting to consider the moments of the non Wandzura-Wilczek contribution to $g-2$,
+\begin{align}
+  d_N = N \int_0^1 x^N \big( g_2(x) - g_2^{WW}(x) \big) \ .
+\end{align}
+For a generic function $f$, let us define it's $N$-th moment as $f[N]=\int_0^1 dx\, x^{N-1} f(x)$. It is then straightforward to verify that $f^*[N] = f[N] (N-1)/N$ and  
+\begin{align}
+  d_N & \equiv N g_2[N+1] + (N-1) g_1[N+1] \\
+  & = \frac12 \sum_q e_q^2 \bigg( N \tilde g_T^q[N+1] + \hat g_T^q[N+1]
+    + \frac{N M_q-m_q}{\Lambda} h_1^q[N+1] \bigg) \ .
+\end{align}
+\AAcom{The notation used in JAM15 with $x^{N-1}$ for the Nth moment is pretty awkward here. Should we use $x^N$ instead?}
 
-Another consequence of the new chiral odd term induced by the non-vanishing of
-the chiral condensate on the non perturbative vacuum is that the
-Burkardt-Cottingham sum rule is broken: 
+The zero-th moment corresponds to an extension of teh Burkhardt-Cottingham sum rule \cite{BC,Jaffe-lectures}, that appears to be broken by the non-perturbative spin-flip contribution from the jet function: 
 \begin{align}
   \label{eq:BC}
-  \int dx\, g_2(x) = \frac{\mj-\mq}{\Lambda} \int dx\, h_1(x) 
-    =  \frac{\mj-\mq}{\Lambda} g_T \ ,
+  \int dx\, g_2(x) = \frac{\mj-\mq}{\Lambda} \int dx\, \frac{1}{x} h_1(x) \ .
 \end{align}
-where the integral over $h_1$ is related to target's tensor charge $g_T$.
+This sum rule, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of the DIS cross section, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays the contribution from spin-flip amplitudes that is commented upon in Refs.~\cite{BC,Jaffe-lectures}, but is explicitly shown here in terms of collinear PDFs. 
+
+
+
+
 Consequences:
 \begin{itemize}
 \item Inclusive DIS become sensitive to the tensor charge; furthermore, teh BC summ rule isolates the effects due to the chiral odd part of the jet correlator. 
