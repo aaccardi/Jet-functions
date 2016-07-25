@@ -130,11 +130,12 @@ could be very large.
 \section{Jet correlator and twist-2 structure functions}
 
 Motivated by large-$x$ mass corrections to inclusive DIS structure functions,
-Accardi and Qiu have introduced in the LO handbag diagram a ``jet correlator''
+Accardi and Qiu have introduced in the LO handbag diagram 
+a ``jet correlator'' (also called ``jet factor'' by Collins and Rogers in Ref.~\cite{Collins:2007ph})
 that accounts for invariant mass production in the current jet, and ensures
 that leading twist calculations in collinear factorization are consistent with
 the requirement imposed by baryon number conservation that $x_B<1$
-\cite{Accardi-Qiu}. The jet correlator is depicted in
+\cite{Accardi:2008ne}. The jet correlator is depicted in
 Figure~\ref{fig:handbags}(a) and is defined as 
 \begin{align} 
 \Xi_{ij}(l,n_+) =\int
@@ -156,7 +157,8 @@ the jet correlator contributes. For example, in the case of inclusive DIS
 discussed in this paper, this is determined by the four momentum transfer $q$
 and the proton's momentum $p$. 
 
-The correlator $\Xi$ can be parametrized in terms of scalar functions, using the vectors $l$ and $n_+$: 
+The correlator $\Xi$ can be parametrized in terms of jet parton correlation
+functions (PCFs), using the vectors $l$ and $n_+$: 
 \begin{equation}
 \Xi(l,n_+) = \Lambda A_1(l^2)\,{\bm 1} + A_2(l^2)\,\lslash 
 + \frac{\Lambda^2}{l \cdot n_{+}} \nslash_+ \, B_{1}(l^2)
@@ -180,7 +182,11 @@ The $A_1$ and $A_2$ terms can be nicely interpreted in terms of the spectral rep
   \delta(l^2 -\mu_j^2) \ ,
 \label{e:jetspectral}
 \end{align}
-where $\mu^2$ is interpreted as the invariant mass of the current jet, {\it i.e.}, of the particles going through the cut in the top blob of Fig.\ref{fig:handbags}(a), and the $J_i$ are the spectral functions of the quark propagator, that have been also called ``jet functions'' in \cite{Accardi-Qiu,Collins-book?,SCET?}. These satisfy
+where $\mu^2$ is interpreted as the invariant mass of the current jet, {\it
+  i.e.}, of the particles going through the cut in the top blob of
+Fig.\ref{fig:handbags}(a), and the $J_i$ are the spectral functions of the
+quark propagator, that have been also called ``jet functions'' in
+\cite{Accardi:2008ne,SCET?} or ``jet factors''~\cite{Collins:2007ph}. These satisfy
 \begin{align}
   J_2(\mu^2) \geq J_1(\mu^2) \geq 0
   \hspace*{0.5cm} \text{and} \hspace*{0.5cm}
@@ -205,7 +211,7 @@ From a comparison of Eqns.\eqref{e:jetexpansion} and \eqref{e:jetspectral}, one 
   \label{fig:handbags}
 \end{figure*}
 
-When inserting the jet correlator in the handbag diagram for inclusive DIS, the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the $F_2$ structure function has been studied in Ref.~\cite{Accardi-Qiu}:
+When inserting the jet correlator in the handbag diagram for inclusive DIS, the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the $F_2$ structure function has been studied in Ref.~\cite{Accardi:2008ne}:
 \begin{align}
   F_2(x_B) & = \int_0^{Q^2(1/x_B-1)}d\mu^2\, J_2(\mu^2) F_2^{(0)}(x_B(1+\mu^2/Q^2)) \ ,
 \label{eq:F2}
@@ -248,7 +254,7 @@ where
 \end{align} 
 where $\mj$ can be interpreted as the average invariant mass produced in the spin-flip fragmentation processes of a quark of flavor $q$.
 % The $\xi_1$ and $\xi_4$ have an interpretation as average invariant mass (and mass squared) of the current jet, and $l^-=q^- + O(1/Q)$ is imposed by 4-momentum conservation at the hard scattering vertex. The $\xi^4$ term contributes at order $O(1/Q^2)$ and is no further considered in this paper. 
-It is important to notice that $\xi_2=1$ exactly due to CPT invariance \cite{Weinberg-book}, while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is dynamically determined. From the analytic properties of spectral functions we may expect \cite{Accardi-Qiu)} $J_2(\mu^2) = Z \delta(\mu^2-m_q) + \bar J_2 (\mu^2) \theta (\mu^2-m_\pi^2)$ with the continuum starting at $m_\pi$, the mass of the pion, due to color confinement effects. Taking into account that $J_1 < J_2$, we may therefore expect 
+It is important to notice that $\xi_2=1$ exactly due to CPT invariance \cite{Weinberg-book}, while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is dynamically determined. From the analytic properties of spectral functions we may expect \cite{Accardi:2008ne)} $J_2(\mu^2) = Z \delta(\mu^2-m_q) + \bar J_2 (\mu^2) \theta (\mu^2-m_\pi^2)$ with the continuum starting at $m_\pi$, the mass of the pion, due to color confinement effects. Taking into account that $J_1 < J_2$, we may therefore expect 
 \begin{align}
   \label{eq:mjet}
   \mj = O(10-100 \text{ MeV}) \ .
@@ -275,7 +281,7 @@ on the quark fragmentation and $\mj \gtrsim \mq$.
 
 \section{Twist-3 analysis}
 
-Extending the analysis of \cite{Accardi-Qiu} to the calculation of twist-3
+Extending the analysis of \cite{Accardi:2008ne} to the calculation of twist-3
 structure functions requires not only to consider the $\xi_1$ term in the jet
 correlator, but also quark-gluon-quark correlators in both the proton and the
 vacuum as depicted in Figs.\ref{fig:handbags}(b) and (c), respectively. 
