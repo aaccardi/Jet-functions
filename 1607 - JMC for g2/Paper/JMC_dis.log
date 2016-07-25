@@ -1,15 +1,15 @@
-<<<<<<< HEAD
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.12.23)  24 JUL 2016 19:41
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.25)  25 JUL 2016 05:21
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.12.23)  25 JUL 2016 18:40
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**\input JMC_dis.tex
-(./JMC_dis.tex (/usr/share/texmf-dist/tex/latex/revtex4/revtex4.cls
-Document Class: revtex4 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for do
+**JMC_dis.tex
+(./JMC_dis.tex
+LaTeX2e <2008/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/sw/share/texmf-dist/tex/latex/revtex4/revtex4.cls
+Document Class: revtex4 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for do
 cumentation)
  Copyright (c) 2001 The American Physical Society.
  mailto:revtex@aps.org
@@ -34,9 +34,9 @@ ltxgrid: portions licensed from W. E. Baxter (web@superscript.com)
 \pagegrid@col=\count82
 Class revtex4 Info: Incorporating package {textcase}  [1998/11/12 v0.06 Text on
 ly upper/lower case changing (DPC)]. on input line 3682.
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+(/sw/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
 )
 \c@affil=\count83
 \absbox=\box31
@@ -51,7 +51,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \c@figure=\count90
 \c@table=\count91
 
-(/usr/share/texmf-dist/tex/latex/natbib/natbib.sty
+(/sw/share/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
@@ -61,57 +61,57 @@ LaTeX Info: Redefining \cite on input line 694.
 \widetext@top=\box32
 \widetext@bot=\box33
 
-(/usr/share/texmf-dist/tex/latex/revtex4/revsymb.sty
-Package: revsymb 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documenta
+(/sw/share/texmf-dist/tex/latex/revtex4/revsymb.sty
+Package: revsymb 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documenta
 tion)
 LaTeX Info: Redefining \REV@mathfrak on input line 118.
 ))
 
 Class revtex4 Warning: No Society specified, using generic APS style.
 
-(/usr/share/texmf-dist/tex/latex/revtex4/aps.rtx
-File: aps.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentatio
+(/sw/share/texmf-dist/tex/latex/revtex4/aps.rtx
+File: aps.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentatio
 n)
 )
-(/usr/share/texmf-dist/tex/latex/revtex4/10pt.rtx
-File: 10pt.rtx 2001/08/02 v4.0 (http://publish.aps.org/revtex4/ for documentati
+(/sw/share/texmf-dist/tex/latex/revtex4/10pt.rtx
+File: 10pt.rtx 2001/08/03 v4.0 (http://publish.aps.org/revtex4/ for documentati
 on)
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/sw/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/sw/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/sw/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen102
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/sw/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/sw/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 211.
 \uproot@=\count94
 \leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 307.
 \classnum@=\count96
 \DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box34
 \strutbox@=\box35
 \big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count98
 \c@MaxMatrixCols=\count99
 \dotsspace@=\muskip11
@@ -132,83 +132,72 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/sw/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
 
-(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+(/sw/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Info: Redefining \frak on input line 111.
-LaTeX Info: Redefining \Bbb on input line 113.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+LaTeX Info: Redefining \frak on input line 135.
+LaTeX Info: Redefining \Bbb on input line 137.
 ))
-(/usr/share/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
+(/sw/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
+LaTeX Info: Redefining \bm on input line 203.
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/sw/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/sw/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(/sw/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 80.
 
-(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
+(/sw/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
 \Gread@gobject=\count105
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/sw/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(/sw/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2005/01/30 v2.0 package option processing (HA)
 
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/sw/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
-)
-\XKV@depth=\count106
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+File: xkeyval.tex 2005/01/30 v2.0 key=value parser (HA)
 ))
-(/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/sw/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/sw/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+(/sw/share/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box36
 )
@@ -218,133 +207,110 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen116
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+(/sw/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen117
 \adjbox@Height=\dimen118
 \adjbox@Depth=\dimen119
 \adjbox@Totalheight=\dimen120
+)
+(/sw/share/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 1994/05/23 v2.03 Table rule package (DPC)
+)
+(/sw/share/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen121
+)
+(/sw/share/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 
-(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count107
-)
-(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box37
-\sift@deathcycles=\count108
-\@vwid@loff=\dimen121
-\@vwid@roff=\dimen122
-))
-(/usr/share/texmf-dist/tex/latex/tools/hhline.sty
-Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen123
-)
-(/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
-Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen124
-\extrarowheight=\dimen125
-\NC@list=\toks24
+(/sw/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen122
+\extrarowheight=\dimen123
+\NC@list=\toks23
 \extratabsurround=\skip48
 \backup@length=\skip49
 ))
-(/usr/share/texmf-dist/tex/latex/carlisle/slashed.sty
+(/sw/share/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/datetime/datetime.sty
-Package: datetime 2015/03/20 v2.60 Date Time Package
+(/Library/Latex/datetime/datetime.sty
+Package: datetime 2007/08/20 v2.55 Date Time Package
+ (/Library/Latex/fmtcount/fmtcount.sty
+Package: fmtcount 2007/07/20 v1.3
 
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count109
+(/sw/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2015/05/05 v3.01
+\c@padzeroesN=\count106
 
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/Library/Latex/fmtcount/fc-english.def
+File: fc-english 2007/05/26
 )
-(/usr/share/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-Package: fcprefix 2012/09/28
-
-(/usr/share/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
-Package: fcnumparser 2012/09/28
-\fc@digit@counter=\count110
-))
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+(/Library/Latex/fmtcount/fc-USenglish.def
+File: fc-USenglish 2007/06/14
 )
-\c@padzeroesN=\count111
-\fc@tmpcatcode=\count112
-\@DT@modctr=\count113
-\@ordinalctr=\count114
-\@orgargctr=\count115
-\@strctr=\count116
-\@tmpstrctr=\count117
-\@DT@loopN=\count118
-\@DT@X=\count119
-
-(/usr/share/texmf-dist/tex/latex/fmtcount/fc-english.def
-File: fc-english.def 2013/08/17
-))
-(/usr/share/texmf-dist/tex/latex/datetime/datetime-defaults.sty
-Package: datetime-defaults 2013/09/10
+(/Library/Latex/fmtcount/fc-spanish.def
+File: fc-spanish.def 2007/05/26
 )
-\@day=\count120
-\@month=\count121
-\@year=\count122
-\c@HOUR=\count123
-\c@HOURXII=\count124
-\c@MINUTE=\count125
-\c@TOHOUR=\count126
-\c@TOMINUTE=\count127
-\c@SECOND=\count128
-\currenthour=\count129
-\currentminute=\count130
-\currentsecond=\count131
+(/Library/Latex/fmtcount/fc-portuges.def
+File: fc-portuges.def 2007/05/26
+)
+(/Library/Latex/fmtcount/fc-french.def
+File: fc-french.def 2007/05/26
+) (/Library/Latex/fmtcount/fc-german.def
+File: fc-german.def 2007/06/14
+)
+No configuration file fmtcount.cfg found.
+\@DT@modctr=\count107
+\@ordinalctr=\count108
+\@orgargctr=\count109
+\@strctr=\count110
+\@tmpstrctr=\count111
+\@DT@loopN=\count112
+\@DT@X=\count113
+)
+\@day=\count114
+\@month=\count115
+\@year=\count116
 Package datetime Info: No datetime.cfg file found, using default settings on in
-put line 308.
-\@dtctr=\count132
-\dayofyear=\count133
-\dayofweek=\count134
-LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks25
-\dt@b=\toks26
-)
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+put line 167.
+\@dtctr=\count117
+\dayofyear=\count118
+\dayofweek=\count119
+LaTeX Info: Redefining \today on input line 428.
+\c@HOUR=\count120
+\c@HOURXII=\count121
+\c@MINUTE=\count122
+\c@TOHOUR=\count123
+\c@TOMINUTE=\count124
+\dt@a=\toks24
+\dt@b=\toks25
+) (/sw/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/sw/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 125.
 )
-(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+(/sw/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+(/sw/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 702.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+Package xcolor Info: Driver file: pdftex.def on input line 136.
+LaTeX Info: Redefining \color on input line 494.
+Package xcolor Info: Color model `cmy' added on input line 972.
+Package xcolor Info: Color model `hsb' added on input line 980.
+Package xcolor Info: Color model `HTML' added on input line 1000.
+Package xcolor Info: Color model `HSB' added on input line 1006.
+Package xcolor Info: Color model `Gray' added on input line 1012.
 
-(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+(/sw/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )) (./JMC_dis.aux)
 \openout1 = `JMC_dis.aux'.
 
@@ -364,7 +330,6 @@ Class revtex4 Info: Patching array package. on input line 47.
 Class revtex4 Info: cite was not loaded (OK!) on input line 47.
 Class revtex4 Info: multicol was not loaded (OK!) on input line 47.
 
-<<<<<<< HEAD
 (/sw/share/texmf-dist/tex/context/base/supp-pdf.tex
 (/sw/share/texmf-dist/tex/context/base/supp-mis.tex
 loading : Context Support Macros / Miscellaneous (2004.10.26)
@@ -407,127 +372,10 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (/sw/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
-=======
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
-\scratchdimen=\dimen126
-\scratchbox=\box38
-\nofMPsegments=\count136
-\nofMParguments=\count137
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count138
-\MPscratchDim=\dimen127
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
-\everyMPtoPDFconversion=\toks28
-) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Try loading font information for U+msa on input line 75.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 75.
-
-<<<<<<< HEAD
-Package natbib Warning: Citation `Green:2012ej' on page 1 undefined on input li
-ne 84.
-
-
-Package natbib Warning: Citation `Bali:2014nma' on page 1 undefined on input li
-ne 84.
-
-
-Package natbib Warning: Citation `Bhattacharya:2015wna' on page 1 undefined on 
-input line 84.
-
 
 Package natbib Warning: Citation `Abdel-Rehim:2015ow' on page 1 undefined on in
 put line 84.
-
-
-Package natbib Warning: Citation `Anselmino:2015sxa' on page 1 undefined on inp
-ut line 88.
-
-
-Package natbib Warning: Citation `Jaffe:1996zw' on page 1 undefined on input li
-ne 97.
-
-
-Package natbib Warning: Citation `Barone:2001sp' on page 1 undefined on input l
-ine 97.
-
-
-Package natbib Warning: Citation `Ralston:1979ys' on page 1 undefined on input 
-line 100.
-
-
-Package natbib Warning: Citation `Jaffe:1991kp' on page 1 undefined on input li
-ne 100.
-
-
-Package natbib Warning: Citation `Jaffe:1993xb' on page 1 undefined on input li
-ne 100.
-
-
-Package natbib Warning: Citation `Collins:1993kk' on page 1 undefined on input 
-line 100.
-
-
-Package natbib Warning: Citation `Accardi:2009au' on page 1 undefined on input 
-line 105.
-
-
-Package natbib Warning: Citation `Wandzura:1977qf' on page 1 undefined on input
- line 107.
 
 
 Package natbib Warning: Citation `Accardi-Qiu' on page 1 undefined on input lin
@@ -541,20 +389,8 @@ Package natbib Warning: Citation `D'Hoker-lecture-notes' on page 2 undefined on
 
 Package natbib Warning: Citation `Romao-lecture-notes' on page 2 undefined on i
 nput line 176.
-=======
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
-Package natbib Warning: Citation `Green:2012ej' on page 1 undefined on input li
-ne 84.
 
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
-
-Package natbib Warning: Citation `Bali:2014nma' on page 1 undefined on input li
-ne 84.
-
-<<<<<<< HEAD
 Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
 e 183.
 
@@ -564,70 +400,6 @@ ine 183.
 
 
 Package natbib Warning: Citation `SCET?' on page 2 undefined on input line 183.
-=======
-
-Package natbib Warning: Citation `Bhattacharya:2015wna' on page 1 undefined on 
-input line 84.
-
-
-Package natbib Warning: Citation `Abdel-Rehim:2015ow' on page 1 undefined on in
-put line 84.
-
-
-Package natbib Warning: Citation `Anselmino:2015sxa' on page 1 undefined on inp
-ut line 88.
-
-
-Package natbib Warning: Citation `Ralston:1979ys' on page 1 undefined on input 
-line 99.
-
-
-Package natbib Warning: Citation `Collins:1992xw' on page 1 undefined on input 
-line 99.
-
-
-Package natbib Warning: Citation `Accardi-Qiu' on page 1 undefined on input lin
-e 135.
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `D'Hoker-lecture-notes' on page 2 undefined on
- input line 174.
-
-
-Package natbib Warning: Citation `Romao-lecture-notes' on page 2 undefined on i
-nput line 174.
-
-
-Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
-e 181.
-
-
-Package natbib Warning: Citation `Collins-book?' on page 2 undefined on input l
-ine 181.
-
-
-Package natbib Warning: Citation `SCET?' on page 2 undefined on input line 181.
-
-
-<jetdiagram0.pdf, id=21, 320.19624pt x 203.76125pt>
-File: jetdiagram0.pdf Graphic file (type pdf)
- <use jetdiagram0.pdf>
-Package pdftex.def Info: jetdiagram0.pdf used on input line 196.
-(pdftex.def)             Requested size: 153.00156pt x 97.36589pt.
-
-<jetdiagram2.pdf, id=22, 320.19624pt x 203.76125pt>
-File: jetdiagram2.pdf Graphic file (type pdf)
- <use jetdiagram2.pdf>
-Package pdftex.def Info: jetdiagram2.pdf used on input line 198.
-(pdftex.def)             Requested size: 153.00156pt x 97.36589pt.
-
-<jetdiagram1.pdf, id=23, 320.19624pt x 203.76125pt>
-File: jetdiagram1.pdf Graphic file (type pdf)
- <use jetdiagram1.pdf>
-Package pdftex.def Info: jetdiagram1.pdf used on input line 200.
-(pdftex.def)             Requested size: 153.00156pt x 97.36589pt.
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
 
 
 <jetdiagram0.pdf, id=50, 320.19624pt x 203.76125pt>
@@ -641,7 +413,6 @@ File: jetdiagram1.pdf Graphic file (type pdf)
  <use jetdiagram1.pdf>
 
 Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
-<<<<<<< HEAD
 e 208.
 
 
@@ -651,22 +422,10 @@ ine 251.
 
 Package natbib Warning: Citation `Accardi-Qiu)' on page 2 undefined on input li
 ne 251.
-=======
-e 206.
-
-
-Package natbib Warning: Citation `Weinberg-book' on page 2 undefined on input l
-ine 241.
-
-
-Package natbib Warning: Citation `Accardi-Qiu)' on page 2 undefined on input li
-ne 241.
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
 
 [2 <./jetdiagram0.pdf> <./jetdiagram2.pdf> <./jetdiagram1.pdf>]
 
 Package natbib Warning: Citation `Accardi-Qiu' on page 3 undefined on input lin
-<<<<<<< HEAD
 e 278.
 
 
@@ -680,30 +439,10 @@ ine 316.
 
 Package natbib Warning: Citation `New-testament' on page 3 undefined on input l
 ine 333.
-=======
-e 268.
-
-
-Package natbib Warning: Citation `New_testament' on page 3 undefined on input l
-ine 300.
-
-
-Package natbib Warning: Citation `New-testament' on page 3 undefined on input l
-ine 306.
-
-
-LaTeX Warning: Reference `eq:SIDIS_to_DIS_TMDlevel' on page 3 undefined on inpu
-t line 323.
-
-
-Package natbib Warning: Citation `New-testament' on page 3 undefined on input l
-ine 323.
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
 
 [3]
 
 Package natbib Warning: Citation `Jaffe-Ji' on page 4 undefined on input line 3
-<<<<<<< HEAD
 39.
 
 
@@ -720,19 +459,12 @@ Package natbib Warning: Citation `JAM15' on page 4 undefined on input line 430.
 Package natbib Warning: Citation `Braun-et-al' on page 4 undefined on input lin
 e 430.
 
-=======
-29.
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
 
 Package natbib Warning: Citation `Other-tw3-calcs' on page 4 undefined on input
  line 430.
 
-<<<<<<< HEAD
 [4]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 439.
-=======
-Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 380.
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
 
  (/sw/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -740,7 +472,6 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 439.
 
-<<<<<<< HEAD
 Warning: pdflatex (file g2contrib.pdf): pdf inclusion: found pdf version <1.5>,
  but at most version <1.4> allowed
 <g2contrib.pdf, id=116, 361.35pt x 323.2075pt>
@@ -781,21 +512,47 @@ ich pdfTeX can't handle. Ignoring it.
 > <./g2contribN.pdf
 Warning: pdflatex (file ./g2contribN.pdf): pdf inclusion: Page Group detected w
 hich pdfTeX can't handle. Ignoring it.
->] (./JMC_dis.bbl)
+>]
+
+Package natbib Warning: Citation `BC' on page 6 undefined on input line 469.
+
+
+Package natbib Warning: Citation `Jaffe-lectures' on page 6 undefined on input 
+line 469.
+
+
+Package natbib Warning: Citation `BC' on page 6 undefined on input line 474.
+
+
+Package natbib Warning: Citation `Jaffe-lectures' on page 6 undefined on input 
+line 474.
+
+(./JMC_dis.bbl
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¤ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¶ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¶ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¤ in font cmr9!
+Missing character: There is no Ã in font cmr9!
+Missing character: There is no ¶ in font cmr9!
+ [6])
 
 Package natbib Warning: There were undefined citations.
 
-[6] (./JMC_dis.aux) ) 
+[7] (./JMC_dis.aux) ) 
 Here is how much of TeX's memory you used:
- 5433 strings out of 94500
- 70835 string characters out of 1176113
- 175720 words of memory out of 1500000
- 8478 multiletter control sequences out of 10000+50000
+ 5466 strings out of 94500
+ 71566 string characters out of 1176113
+ 176595 words of memory out of 1500000
+ 8511 multiletter control sequences out of 10000+50000
  15006 words of font info for 55 fonts, out of 1200000 for 2000
  580 hyphenation exceptions out of 8191
- 31i,19n,38p,861b,362s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 31i,19n,38p,861b,363s stack positions out of 5000i,500n,6000p,200000b,5000s
 PDF statistics:
- 230 PDF objects out of 65536
+ 234 PDF objects out of 65536
  0 named destinations out of 20000
  26 words of extra memory for PDF output out of 65536
 </sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy9.pfb></s
@@ -816,108 +573,4 @@ ype1/bluesky/cm/cmti9.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi6.pf
 b></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi7.pfb></sw/share/texmf-dist/
 fonts/type1/bluesky/cm/cmr10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/c
 mbx12.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr9.pfb>
-Output written on JMC_dis.pdf (6 pages, 309089 bytes).
-=======
-Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 393.
-
-
-Package natbib Warning: Citation `JAM15' on page 4 undefined on input line 420.
-
-
-
-Package natbib Warning: Citation `Braun-et-al' on page 4 undefined on input lin
-e 420.
-
-
-Package natbib Warning: Citation `Other-tw3-calcs' on page 4 undefined on input
- line 420.
-
-[4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 429.
-
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 429.
-
-<g2contrib.pdf, id=62, 361.35pt x 323.2075pt>
-File: g2contrib.pdf Graphic file (type pdf)
- <use g2contrib.pdf>
-Package pdftex.def Info: g2contrib.pdf used on input line 439.
-(pdftex.def)             Requested size: 227.62204pt x 203.59714pt.
-
-
-Package natbib Warning: Citation `JAM15' on page 5 undefined on input line 442.
-
-
-
-Package natbib Warning: Citation `Pavia15' on page 5 undefined on input line 44
-2.
-
-
-Package natbib Warning: Citation `Braun-et-al' on page 5 undefined on input lin
-e 442.
-
-
-Package natbib Warning: Citation `JAM15' on page 5 undefined on input line 442.
-
-
-
-Package natbib Warning: Citation `Pavia15' on page 5 undefined on input line 44
-2.
-
-
-Package natbib Warning: Citation `Braun-et-al' on page 5 undefined on input lin
-e 442.
-
-[5 <./g2contrib.pdf>] (./JMC_dis.bbl)
-
-Package natbib Warning: There were undefined citations.
-
-[6] (./JMC_dis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
-Here is how much of TeX's memory you used:
- 6500 strings out of 493054
- 85544 string characters out of 6140586
- 203866 words of memory out of 5000000
- 9858 multiletter control sequences out of 15000+600000
- 14340 words of font info for 53 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,19n,35p,1014b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msam10.pfb>
-Output written on JMC_dis.pdf (6 pages, 356719 bytes).
-PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
-
->>>>>>> 6e14375b38139a631883ffa47658552c1a6ed398
+Output written on JMC_dis.pdf (7 pages, 317382 bytes).
