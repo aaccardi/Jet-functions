@@ -465,11 +465,11 @@ It is interesting to consider the moments of the non Wandzura-Wilczek contributi
 \begin{align}
   d_N = N \int_0^1 x^N \big( g_2(x) - g_2^{WW}(x) \big) \ .
 \end{align}
-For a generic function $f$, let us define it's $N$-th moment as $f[N]=\int_0^1 dx\, x^{N-1} f(x)$. It is then straightforward to verify that $f^*[N] = f[N] (N-1)/N$ and  
+For a generic function $f$, let us define it's $N$-th moment as $f[N]=\int_0^1 dx\, x^{N} f(x)$. It is then straightforward to verify that $f^*[N] = N/(N+1) f[N]$ and  
 \begin{align}
-  d_N & \equiv N g_2[N+1] + (N-1) g_1[N+1] \\
-  & = \frac12 \sum_q e_q^2 \bigg( N \tilde g_T^q[N+1] + \hat g_T^q[N+1]
-    + \frac{N M_q-m_q}{\Lambda} h_1^q[N+1] \bigg) \ .
+  d_N & \equiv (N+1) g_2[N] + N g_1[N] \\
+  & = \frac12 \sum_q e_q^2 \bigg( N \tilde g_T^q[N] + \hat g_T^q[N]
+    + \frac{(N+1) M_q-m_q}{\Lambda} h_1^q[N] \bigg) \ .
 \end{align}
 \AAcom{The notation used in JAM15 with $x^{N-1}$ for the Nth moment is pretty awkward here. Should we use $x^N$ instead?}
 
@@ -483,34 +483,42 @@ This sum rule, in which the pure twist-3 part does not take part, is a consequen
 Assuming the Burkhardt-Cottingham sum rule to be strictly valid, we obtain a strong constraint on the transversity function,
 \begin{align}
    \int dx\, \frac{1}{x} h_1(x) = 0 \ .
+\label{eq:ABsumrule}
 \end{align}
 Even if the BC sun rule is broken by a 
 $J = 0$ fixed pole with non-polynomial residue, i.e., if $g_2$ integrates to a finite but non-zero number \cite{Jaffe-lectures}), we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
 \begin{align}
   h_1(x) \propto x^\epsilon \ \ \ \epsilon>0 \ .
+\label{eq:ABbound}
 \end{align}
-This bound will be very useful, \eg, in transversity fits, where the data at small $x$ is as yet very limited.
+This bound will be very useful, \eg, in transversity fits, where the data at small $x$ is, as yet, very limited, and in general for proper extrapolations when calculating moments.
+
+The first moment is the first in which a contribution from the pure twist-3 part of $g_2$ appears:
+\begin{align}
+  d_1 & = \frac12 \sum_q e_q^2 \bigg( 2 \tilde g_T^q[1] + \hat g_T^q[1]
+    + \frac{2M_q-m_q}{\Lambda} h_1^q[1] \bigg)
+\end{align}
+where $h_1^q[1] = \int_0^1 \dx $ is the contribution of a quark $q$ to the tensor charge. In this case, the transevrsity contribution is a background to the extraction of teh poure twist-3 piece. Fortunately, it is a quantity that can be extracted from the lattice \cite{Bhattacharya:2016zcn} or fitted \cite{Pavia15, others, reviews?}. Furthermore the new sum rule \eqref{eq:ABsumrule} and bound \eqref{eq:ABbound} promise to improve future transversity fits. What is less obvious is how to calculate $M_q-m_q$ from first principles, since this is related to the spectral function of the quark propagator. We will, however, discuss later perspectives on how to measure it. Therefore the pure twist-3 part can, in principle, be properly isolated.
+
+The third moment is interesting because the pure twist-3 part can be related to quark-gluon-quark correlators, see \cite{Jaffe-lectures}, and interpreted as as the average color force experienced by the struck quark as it exits teh nucleon \cite{M.Burkardt}. As in the previous case, however, the transversity contribution needs to be subtracted:
+\begin{align}
+  d_2 & = \frac12 \sum_q e_q^2 \bigg( 3 \tilde g_T^q[2] + \hat g_T^q[2]
+    + \frac{3M_q-m_q}{\Lambda} h_1^q[2] \bigg)
+\end{align}
+
 
 
 {\bf [---------------- AA:  EDITED down here --------------------]}
 
 
 
-Consequences:
-\begin{itemize}
-\item Inclusive DIS become sensitive to the tensor charge; furthermore, teh BC summ rule isolates the effects due to the chiral odd part of the jet correlator. 
-\item Both the jet mass $\mj$ and the tensor charge can in principle be calculated on the lattice
-\item Comparison to the Burkhardt-Cottingham sum rule can provide experimental verification of lattice calculation
-\item in turn these can be used to determine the size of the $h_1$ term in $g_2-g_2^{WW}$ and allow an eperimental extraction of the pure twist-3 terms.
-\item Recent calcs of $g_T^{d-u}$ tensor charge are very precise - can we use this info in our plots? (to ``measure'' the quark condenstae $\langle0|\psi\bar\psi|0\rangle>$, for example? this would need an estimate of teh BC breaking, that is only availbal efrom JAM13, for all that I know.)
-\end{itemize}
 
 It is important to explore in which other process does $\mj$ contribute, as to provide an experimental check of the formalism:
 \begin{itemize}
 \item inclusive $\Lambda$ production in $e^+ + e^-$
 \item same-side dihadrons in $e^+ + e^-$ 
 \end{itemize}
-\todo{It would be cool to find a process where the $\mj$ contribution is th eonly one (similar to the BC breaking) ...}   
+\todo{It would be cool to find a process where the $\mj$ contribution is the only one (similar to the BC breaking) ...}   
 
 
 
