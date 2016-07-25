@@ -1,7 +1,7 @@
-.dvi
-.log
-.blg
+*.dvi
+*.log
+*.blg
 desktop.ini
-.directory
-.directory.lock
+*.directory
+*.directory.lock
 *~
