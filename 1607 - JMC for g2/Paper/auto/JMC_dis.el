@@ -4,6 +4,7 @@
      "mybiblio")
     (LaTeX-add-labels
      "e:xifull"
+     "fig:handbags"
      "e:jetexpansion"
      "e:jetexpansion-tw3"
      "e:jetspectral"
@@ -36,13 +37,20 @@
      "de"
      "ii"
      "mj"
-     "mjs")
+     "mjs"
+     "AAcom"
+     "AAmod")
     (TeX-run-style-hooks
+     "xcolor"
+     "dvipsnames"
+     "color"
      "datetime"
      "slashed"
      "dcolumn"
      "multirow"
      "hhline"
+     "adjustbox"
+     "export"
      "graphicx"
      "bm"
      "amssymb"
