@@ -1,4 +1,4 @@
-This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.12.23)  19 JUL 2016 19:28
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2010.12.23)  24 JUL 2016 19:41
 entering extended mode
 **JMC_dis.tex
 (./JMC_dis.tex
@@ -314,21 +314,21 @@ File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )) (./JMC_dis.aux)
 \openout1 = `JMC_dis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-Class revtex4 Info: Patching array package. on input line 46.
-Class revtex4 Info: cite was not loaded (OK!) on input line 46.
-Class revtex4 Info: multicol was not loaded (OK!) on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+Class revtex4 Info: Patching array package. on input line 47.
+Class revtex4 Info: cite was not loaded (OK!) on input line 47.
+Class revtex4 Info: multicol was not loaded (OK!) on input line 47.
 
 (/sw/share/texmf-dist/tex/context/base/supp-pdf.tex
 (/sw/share/texmf-dist/tex/context/base/supp-mis.tex
@@ -364,138 +364,235 @@ loading : Context Support Macros / PDF (2004.03.26)
 \MPnumerator=\count134
 \everyMPtoPDFconversion=\toks29
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 74.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
  (/sw/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 74.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (/sw/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
 
-Package natbib Warning: Citation `Accardi-Qiu' on page 1 undefined on input lin
-e 125.
+Package natbib Warning: Citation `Green:2012ej' on page 1 undefined on input li
+ne 84.
 
-<jetdiagram0.pdf, id=1, 320.19624pt x 203.76125pt>
-File: jetdiagram0.pdf Graphic file (type pdf)
- <use jetdiagram0.pdf>
-<jetdiagram1.pdf, id=2, 320.19624pt x 203.76125pt>
-File: jetdiagram1.pdf Graphic file (type pdf)
- <use jetdiagram1.pdf>
-<jetdiagram2.pdf, id=3, 320.19624pt x 203.76125pt>
-File: jetdiagram2.pdf Graphic file (type pdf)
- <use jetdiagram2.pdf>
+
+Package natbib Warning: Citation `Bali:2014nma' on page 1 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Bhattacharya:2015wna' on page 1 undefined on 
+input line 84.
+
+
+Package natbib Warning: Citation `Abdel-Rehim:2015ow' on page 1 undefined on in
+put line 84.
+
+
+Package natbib Warning: Citation `Anselmino:2015sxa' on page 1 undefined on inp
+ut line 88.
+
+
+Package natbib Warning: Citation `Jaffe:1996zw' on page 1 undefined on input li
+ne 97.
+
+
+Package natbib Warning: Citation `Barone:2001sp' on page 1 undefined on input l
+ine 97.
+
+
+Package natbib Warning: Citation `Ralston:1979ys' on page 1 undefined on input 
+line 100.
+
+
+Package natbib Warning: Citation `Jaffe:1991kp' on page 1 undefined on input li
+ne 100.
+
+
+Package natbib Warning: Citation `Jaffe:1993xb' on page 1 undefined on input li
+ne 100.
+
+
+Package natbib Warning: Citation `Collins:1993kk' on page 1 undefined on input 
+line 100.
+
+
+Package natbib Warning: Citation `Accardi:2009au' on page 1 undefined on input 
+line 105.
+
+
+Package natbib Warning: Citation `Wandzura:1977qf' on page 1 undefined on input
+ line 107.
+
+
+Package natbib Warning: Citation `Accardi-Qiu' on page 1 undefined on input lin
+e 137.
+
 [1{/Users/bacchett/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `fig:handabgs' on page 2 undefined on input line 175.
-
-
-Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
-e 175.
-
-
 Package natbib Warning: Citation `D'Hoker-lecture-notes' on page 2 undefined on
- input line 175.
+ input line 176.
 
 
 Package natbib Warning: Citation `Romao-lecture-notes' on page 2 undefined on i
-nput line 175.
+nput line 176.
 
 
 Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
-e 188.
-
-[2 <./jetdiagram0.pdf> <./jetdiagram1.pdf> <./jetdiagram2.pdf>]
-
-Package natbib Warning: Citation `Weinberg-book' on page 3 undefined on input l
-ine 224.
+e 183.
 
 
-Package natbib Warning: Citation `Accardi-Qiu)' on page 3 undefined on input li
-ne 224.
+Package natbib Warning: Citation `Collins-book?' on page 2 undefined on input l
+ine 183.
 
+
+Package natbib Warning: Citation `SCET?' on page 2 undefined on input line 183.
+
+
+<jetdiagram0.pdf, id=50, 320.19624pt x 203.76125pt>
+File: jetdiagram0.pdf Graphic file (type pdf)
+ <use jetdiagram0.pdf>
+<jetdiagram2.pdf, id=51, 320.19624pt x 203.76125pt>
+File: jetdiagram2.pdf Graphic file (type pdf)
+ <use jetdiagram2.pdf>
+<jetdiagram1.pdf, id=52, 320.19624pt x 203.76125pt>
+File: jetdiagram1.pdf Graphic file (type pdf)
+ <use jetdiagram1.pdf>
+
+Package natbib Warning: Citation `Accardi-Qiu' on page 2 undefined on input lin
+e 208.
+
+
+Package natbib Warning: Citation `Weinberg-book' on page 2 undefined on input l
+ine 251.
+
+
+Package natbib Warning: Citation `Accardi-Qiu)' on page 2 undefined on input li
+ne 251.
+
+[2 <./jetdiagram0.pdf> <./jetdiagram2.pdf> <./jetdiagram1.pdf>]
 
 Package natbib Warning: Citation `Accardi-Qiu' on page 3 undefined on input lin
-e 251.
+e 278.
 
 
 Package natbib Warning: Citation `New_testament' on page 3 undefined on input l
-ine 283.
+ine 310.
 
 
 Package natbib Warning: Citation `New-testament' on page 3 undefined on input l
-ine 294.
+ine 316.
 
 
 Package natbib Warning: Citation `New-testament' on page 3 undefined on input l
-ine 298.
+ine 333.
 
 [3]
 
-Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 357.
+Package natbib Warning: Citation `Jaffe-Ji' on page 4 undefined on input line 3
+39.
 
 
-Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 370.
+Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 390.
 
 
-Warning: pdflatex (file g2contrib.pdf): pdf inclusion: found pdf version <1.5>,
- but at most version <1.4> allowed
-<g2contrib.pdf, id=107, 361.35pt x 325.215pt>
-File: g2contrib.pdf Graphic file (type pdf)
- <use g2contrib.pdf>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 408.
+Package natbib Warning: Citation `ABMS' on page 4 undefined on input line 403.
 
 
-(/sw/share/texmf-dist/tex/latex/base/omscmr.fd
+Package natbib Warning: Citation `JAM15' on page 4 undefined on input line 430.
+
+
+
+Package natbib Warning: Citation `Braun-et-al' on page 4 undefined on input lin
+e 430.
+
+
+Package natbib Warning: Citation `Other-tw3-calcs' on page 4 undefined on input
+ line 430.
+
+[4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 439.
+
+ (/sw/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 408.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 440--444
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 439.
 
- []
+Warning: pdflatex (file g2contrib.pdf): pdf inclusion: found pdf version <1.5>,
+ but at most version <1.4> allowed
+<g2contrib.pdf, id=116, 361.35pt x 323.2075pt>
+File: g2contrib.pdf Graphic file (type pdf)
+ <use g2contrib.pdf>
+Warning: pdflatex (file g2contribN.pdf): pdf inclusion: found pdf version <1.5>
+, but at most version <1.4> allowed
+<g2contribN.pdf, id=117, 361.35pt x 323.2075pt>
+File: g2contribN.pdf Graphic file (type pdf)
+ <use g2contribN.pdf>
+
+Package natbib Warning: Citation `JAM15' on page 5 undefined on input line 453.
+
+
+
+Package natbib Warning: Citation `Pavia15' on page 5 undefined on input line 45
+3.
+
+
+Package natbib Warning: Citation `Braun-et-al' on page 5 undefined on input lin
+e 453.
+
+
+Package natbib Warning: Citation `JAM15' on page 5 undefined on input line 453.
+
+
+
+Package natbib Warning: Citation `Pavia15' on page 5 undefined on input line 45
+3.
+
+
+Package natbib Warning: Citation `Braun-et-al' on page 5 undefined on input lin
+e 453.
 
 [5 <./g2contrib.pdf
 Warning: pdflatex (file ./g2contrib.pdf): pdf inclusion: Page Group detected wh
 ich pdfTeX can't handle. Ignoring it.
+> <./g2contribN.pdf
+Warning: pdflatex (file ./g2contribN.pdf): pdf inclusion: Page Group detected w
+hich pdfTeX can't handle. Ignoring it.
 >] (./JMC_dis.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[6] (./JMC_dis.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[6] (./JMC_dis.aux) ) 
 Here is how much of TeX's memory you used:
- 5407 strings out of 94500
- 70442 string characters out of 1176113
- 174700 words of memory out of 1500000
- 8453 multiletter control sequences out of 10000+50000
+ 5433 strings out of 94500
+ 70835 string characters out of 1176113
+ 175720 words of memory out of 1500000
+ 8478 multiletter control sequences out of 10000+50000
  15006 words of font info for 55 fonts, out of 1200000 for 2000
  580 hyphenation exceptions out of 8191
- 31i,19n,38p,850b,320s stack positions out of 5000i,500n,6000p,200000b,5000s
+ 31i,19n,38p,861b,362s stack positions out of 5000i,500n,6000p,200000b,5000s
 PDF statistics:
- 171 PDF objects out of 65536
+ 230 PDF objects out of 65536
  0 named destinations out of 20000
- 21 words of extra memory for PDF output out of 65536
-</sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi9.pfb></sw/share/texmf-dist/
-fonts/type1/bluesky/cm/cmsy5.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/c
-mmib10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/symbols/msam10.pfb></sw/sh
-are/texmf-dist/fonts/type1/bluesky/cm/cmmi12.pfb></sw/share/texmf-dist/fonts/ty
-pe1/bluesky/cm/cmr17.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi5.pfb
-></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmti10.pfb></sw/share/texmf-dist/
-fonts/type1/bluesky/cm/cmr5.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cm
-sy10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy7.pfb></sw/share/texm
-f-dist/fonts/type1/bluesky/cm/cmex10.pfb></sw/share/texmf-dist/fonts/type1/blue
-sky/cm/cmbx10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></sw/sh
-are/texmf-dist/fonts/type1/bluesky/cm/cmmi10.pfb></sw/share/texmf-dist/fonts/ty
-pe1/bluesky/cm/cmbx9.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb>
-</sw/share/texmf-dist/fonts/type1/bluesky/cm/cmti9.pfb></sw/share/texmf-dist/fo
-nts/type1/bluesky/cm/cmmi6.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmm
-i7.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></sw/share/texmf-
-dist/fonts/type1/bluesky/cm/cmbx12.pfb></sw/share/texmf-dist/fonts/type1/bluesk
-y/cm/cmr9.pfb>
-Output written on JMC_dis.pdf (6 pages, 240960 bytes).
+ 26 words of extra memory for PDF output out of 65536
+</sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy9.pfb></s
+w/share/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb></sw/share/texmf-dist/fonts/
+type1/bluesky/cm/cmmi9.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy5.p
+fb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmib10.pfb></sw/share/texmf-di
+st/fonts/type1/bluesky/symbols/msam10.pfb></sw/share/texmf-dist/fonts/type1/blu
+esky/cm/cmmi12.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr17.pfb></sw/
+share/texmf-dist/fonts/type1/bluesky/cm/cmmi5.pfb></sw/share/texmf-dist/fonts/t
+ype1/bluesky/cm/cmti10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr5.pf
+b></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmsy10.pfb></sw/share/texmf-dist
+/fonts/type1/bluesky/cm/cmsy7.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/
+cmex10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></sw/share/tex
+mf-dist/fonts/type1/bluesky/cm/cmmi10.pfb></sw/share/texmf-dist/fonts/type1/blu
+esky/cm/cmbx10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmbx6.pfb></sw/
+share/texmf-dist/fonts/type1/bluesky/cm/cmbx9.pfb></sw/share/texmf-dist/fonts/t
+ype1/bluesky/cm/cmti9.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi6.pf
+b></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmmi7.pfb></sw/share/texmf-dist/
+fonts/type1/bluesky/cm/cmr10.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/c
+mbx12.pfb></sw/share/texmf-dist/fonts/type1/bluesky/cm/cmr9.pfb>
+Output written on JMC_dis.pdf (6 pages, 309089 bytes).
