@@ -116,19 +116,13 @@ We revisit the standard analysis of inclusive DIS taking into account the fact
 that on-shell quarks cannot be present in the final state, but they rather
 decay into hadrons (ideally, forming jets of hadrons). This is sufficient to modify the structure of the DIS
 cut-diagram, even if none of the hadrons is detected in the final
-state. For a proper description of this effect, we include ``jet
-correlators'' into the analysis. We pay particular attention to ensuring that our
-results are gauge invariant. We observe that the inclusion of jet correlators
-introduces a new
+state. For a proper description of this effect, we include proper ``jet
+correlators'' into the analysis, and pay particular attention to ensuring that our results are gauge invariant. We observe that the inclusion of jet correlators introduces a new
 contribution to the inclusive $g_2$ structure function. This term has the
 interesting features that: a) violates the Wandzura--Wilczek relation, b)
 potentially violates the Burkhardt--Cottingham sum rule, c) is
 proportional to the transversity distribution function multiplied by a
-nonperturbative ``jet mass'' parameter, probably much larger than the mass of light
-quarks. 
-We provide estimates of this
-contribution based on a recent extraction of transversity and show that it
-could be very large.   
+nonperturbative ``jet mass'' parameter, likely much larger than the mass of light quarks. We provide estimates of this contribution based on a recent extraction of transversity and show that it could be very large.   
  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -470,7 +464,7 @@ from Jefferson Lab, and simultaneously fits the higher-twist components of in
 $g_1$ and $g_2$ to the data. For the ``pure twist-3'' contribution,
 $g_2^{tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix
 elements, we show a model calculation by Braun et al.~\cite{Braun:2011aw}; for
-other estimates, see \cite{Other-tw3-calcs}. To estimate the contributions
+(modified) bag model calculations, see \cite{Jaffe:1990qh,Stratmann:1993aw}. To estimate the contributions
 from quark ($g_2^q$) and jet mass ($g_2^{jet}$) effects, that depend on chiral
 odd quark-quark matrix elements, we use the recent Pavia15 fit of the
 transversity distribution from Ref.~\cite{Radici:2015mwa}, which is comparable
@@ -481,15 +475,15 @@ values of the mass parameters to be $\mq=5$ MeV and $\mj = 100$ MeV.
 As one can see, in the proton case the pure twist-3 contribution is quite
 smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As
 expected, the quark-mass contribution is essentially negligible and cannot
-reconcile these two. Even though the uncertainties in the $h_1$ extraction and
-even more the estimate of $M_q$ are large, it is quite clear that the gap
+reconcile these two. Even though the uncertainties in the $h_1$ extraction, and
+even more in the estimate of $M_q$, are large, it is quite clear that the gap
 between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be
 explained by the new jet-mass contribution we discussed in this paper.  
 
 In the neutron case, the jet contribution is very negative at intermediate to
 large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$
 calculation by Braun et al., one would conclude that the jet contribution
-cannot be that large. However, the latteris dominated by the $d$ quark's
+cannot be that large. However, the latter is dominated by the $d$ quark's
 transversity, whose fit suffers from large systematic uncertainties and
 saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate,
 however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement
@@ -547,7 +541,7 @@ The zero-th moment provides an interesting relationship between the longitudinal
   \label{eq:BC}
   \int dx\, g_2(x) = \sum_q e_q^2 \frac{\mj-\mq}{\Lambda} \int dx\, \frac{1}{x} h_1^q(x) \ ,
 \end{align}
-where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry properties of the quark-gluon-quark correlators. The sum rule \eqref{eq:BC}, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays a contribution from spin-flip processes, that are included in the original derivation by Burkhardt and Cottingham \cite{Burkhardt:1970ti} but do not show up in treatments that only consider free field quark propagators for the struck quark \cite{Jaffe:1996zw}. Assuming the Burkhardt-Cottingham sum rule $\int_0^1 dx\, g_2(x) =0$, that is derived at the cross section level (under suitable assumptions on teh high-energy behavior of te hspin-flip amplitude) rather than from an analysis of collinear correlators, as done here, to be strictly valid, we obtain a strong constraint on the transversity function,
+where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry properties of the quark-gluon-quark correlators. The sum rule \eqref{eq:BC}, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays a contribution from spin-flip processes, that are included in the original derivation by Burkhardt and Cottingham \cite{Burkhardt:1970ti} but do not show up in treatments that only consider free field quark propagators for the struck quark \cite{Jaffe:1996zw}. Since $h_1$ is driven to 0 by QCD evolution as $Q^2 \to \infty$, the BC sum rule $\int_0^1 dx\, g_2(x) =0$ is satisfied at least asymptotically. At finite scales, assuming the Burkhardt-Cottingham sum rule, that is derived at the cross section level (under suitable assumptions on the high-energy behavior of te hspin-flip amplitude) rather than from an analysis of collinear correlators, as done here, to be strictly valid, we obtain a strong constraint on the transversity function,
 \begin{align}
    \int dx\, \frac{1}{x} h_1^q(x) = 0 \ .
 \label{eq:ABsumrule}
@@ -567,12 +561,12 @@ The first moment is the first in which a contribution from the pure twist-3 part
     + \frac{2M_q-m_q}{\Lambda} h_1^q[1] \bigg)
 \end{align}
 where $h_1^q[1] = \int_0^1 dx h_1^q(x)$ is the contribution of a quark $q$ to the tensor charge. 
-The third moment is also interesting because the pure twist-3 part can be related to quark-gluon-quark correlators, see  \cite{Jaffe:1996zw}, and interpreted as as the average color force experienced by the struck quark as it exits the nucleon \cite{Burkardt:2012sd}:
+The third moment is also interesting because the pure twist-3 part can be related to quark-gluon-quark correlators, see \cite{Jaffe:1996zw}, and interpreted as as the average color force experienced by the struck quark as it exits the nucleon \cite{Burkardt:2012sd}:
 \begin{align}
   d_2 & = \frac12 \sum_q e_q^2 \bigg( 3 \tilde g_T^q[2] + \hat g_T^q[2]
     + \frac{3M_q-m_q}{\Lambda} h_1^q[2] \bigg)
 \end{align}
-In both of these cases, the transversity contribution is a background to the extraction of the pure twist-3 piece. Fortunately, it is a quantity that can be extracted from the lattice
+In both cases, the transversity contribution is a background to the extraction of the pure twist-3 piece. Fortunately, it is a quantity that can be extracted from the lattice
 \cite{Green:2012ej,Bali:2014nma,Bhattacharya:2015wna,Abdel-Rehim:2015owa,Bhattacharya:2016zcn} or fitted
 \cite{Radici:2015mwa,Anselmino:2015sxa,Kang:2015msa}.
 Furthermore, the new sum rule \eqref{eq:ABsumrule} and the bound \eqref{eq:ABbound} promise to improve future transversity fits. What is less obvious is how to calculate $M_q-m_q$ from first principles, since this is related to the spectral function of the quark propagator. We will, however, briefly discuss perspectives on how to measure it. Therefore the pure twist-3 part can, in principle, be properly isolated.
