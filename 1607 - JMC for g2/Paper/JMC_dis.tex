@@ -82,20 +82,24 @@ We revisit the standard analysis of inclusive DIS on protons taking into account
 The tensor charge is a fundamental property of the nucleon, at
 present poorly constrained. It has been estimated in lattice
 QCD (see, \eg,
-\cite{Green:2012ej,Bali:2014nma,Bhattacharya:2015wna,Abdel-Rehim:2015ow}), but
+\cite{Green:2012ej,Bali:2014nma,Bhattacharya:2015wna,Abdel-Rehim:2015owa,Bhattacharya:2016zcn}), but
 only limited information is available from direct measurements. The
 way to extract the tensor charge from experimental measurements requires first
 of all the extraction the so-called transversity parton distribution function,
-denoted by $h_1^q(x)$~\cite{Radici:2015mwa,Anselmino:2015sxa,Kang:2015msa}. 
+denoted by $h_1^q(x)$ (see Ref.~\cite{Barone:2001sp} for a review on transversity and
+Refs.~\cite{Radici:2015mwa,Anselmino:2015sxa,Kang:2015msa} for the most recent
+extractions). 
 The integral of the transversity distribution
 corresponds to the contribution of flavor $q$ to the tensor charge.
+The knowledge of the tensor charge can be used also to put constraints on the search of physics beyond the Standard
+Model~\cite{Cirigliano:2013xha,Bhattacharya:2015esa,Courtoy:2015haa}.
 
 In this paper, we discuss the possibility of observing the effect of
 the transversity parton distribution function (PDF) in totally inclusive Deep Inelastic Scattering.
 
 The transversity distribution is notoriously difficult to access because it is
 a chiral-odd function and needs to be combined with a spin-flip mechanism to
-appear in a scattering process~\cite{Jaffe:1996zw,Barone:2001sp}. Usually, this spin flip is provided by another
+appear in a scattering process~\cite{Jaffe:1996zw}. Usually, this spin flip is provided by another
 nonperturbative distribution or fragmentation function, implying that
 transversity cannot be accessed in inclusive DIS,
 but only in more complex processes such as semi-inclusive DIS or Drell-Yan~\cite{Ralston:1979ys,Jaffe:1991kp,Jaffe:1993xb,Collins:1993kk}. 
@@ -187,7 +191,7 @@ where $\mu^2$ is interpreted as the invariant mass of the current jet, {\it
   i.e.}, of the particles going through the cut in the top blob of
 Fig.\ref{fig:handbags}(a), and the $J_i$ are the spectral functions of the
 quark propagator, that have been also called ``jet functions'' in
-\cite{Accardi:2008ne,SCET?} or ``jet factors''~\cite{Collins:2007ph}. These satisfy
+\cite{Accardi:2008ne,SCET?}. These satisfy
 \begin{align}
   J_2(\mu^2) \geq J_1(\mu^2) \geq 0
   \hspace*{0.5cm} \text{and} \hspace*{0.5cm}
@@ -212,7 +216,10 @@ From a comparison of Eqns.\eqref{e:jetexpansion} and \eqref{e:jetspectral}, one 
   \label{fig:handbags}
 \end{figure*}
 
-When inserting the jet correlator in the handbag diagram for inclusive DIS, the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the $F_2$ structure function has been studied in Ref.~\cite{Accardi:2008ne}:
+When inserting the jet correlator in the handbag diagram for inclusive DIS,
+the invariant jet mass $\mu^2$ is integrated from 0 to $Q^2(1/x_B-1)$. This
+induces (kinematical) corrections of order $O(1/Q^2)$, whose effect on the
+$F_2$ structure function has been studied in Ref.~\cite{Accardi:2008ne}: 
 \begin{align}
   F_2(x_B) & = \int_0^{Q^2(1/x_B-1)}d\mu^2\, J_2(\mu^2) F_2^{(0)}(x_B(1+\mu^2/Q^2)) \ ,
 \label{eq:F2}
@@ -255,7 +262,13 @@ where
 \end{align} 
 where $\mj$ can be interpreted as the average invariant mass produced in the spin-flip fragmentation processes of a quark of flavor $q$.
 % The $\xi_1$ and $\xi_4$ have an interpretation as average invariant mass (and mass squared) of the current jet, and $l^-=q^- + O(1/Q)$ is imposed by 4-momentum conservation at the hard scattering vertex. The $\xi^4$ term contributes at order $O(1/Q^2)$ and is no further considered in this paper. 
-It is important to notice that $\xi_2=1$ exactly due to CPT invariance \cite{Weinberg-book}, while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is dynamically determined. From the analytic properties of spectral functions we may expect \cite{Accardi:2008ne)} $J_2(\mu^2) = Z \delta(\mu^2-m_q) + \bar J_2 (\mu^2) \theta (\mu^2-m_\pi^2)$ with the continuum starting at $m_\pi$, the mass of the pion, due to color confinement effects. Taking into account that $J_1 < J_2$, we may therefore expect 
+It is important to notice that $\xi_2=1$ exactly due to CPT invariance
+\cite{Weinberg:1995mt}, while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is
+dynamically determined. From the analytic properties of spectral functions we
+may expect \cite{Accardi:2008ne} $J_2(\mu^2) = Z \delta(\mu^2-m_q) + \bar J_2
+(\mu^2) \theta (\mu^2-m_\pi^2)$ with the continuum starting at $m_\pi$, the
+mass of the pion, due to color confinement effects. Taking into account that
+$J_1 < J_2$, we may therefore expect  
 \begin{align}
   \label{eq:mjet}
   \mj = O(10-100 \text{ MeV}) \ .
@@ -307,25 +320,35 @@ $\Xi_A^{\mu}(l,k)$ in diagrams \ref{fig:handbags}(c),
 \label{e:xi_A}
 \end{split} 
 \end{equation}  
-This diagram and its hermitian conugate are not only important to account for all contribution of order $O(1/Q)$, but also in restoring up to twist-3 the gauge invariance broken in diagram \ref{fig:handbags}(a) by the different mass of the incoming and outgoing quark lines, namely, $\mq \neq \mj$.
+This diagram and its hermitian conugate are not only important to account for
+all contribution of order $O(1/Q)$, but also in restoring up to twist-3 the
+gauge invariance broken in diagram \ref{fig:handbags}(a) by the different mass
+of the incoming and outgoing quark lines, namely, $\mq \neq \mj$. 
 
-Rather than directly using the definition \eqref{e:xi_A}, it is convenient to calculate the inclusive cross section as an integral of the semi-inclusive one, utilize the QCD equation of motions and furthermore summed over all hadron flavors, and take advantage of 
+Rather than directly using the definition \eqref{e:xi_A}, it is convenient to
+calculate the inclusive cross section as an integral of the semi-inclusive
+one, utilize the QCD equation of motions and furthermore summed over all
+hadron flavors, and take advantage of  
 \begin{align}
   \label{eq:SIDIS_to_DIS}
   \sum_h \int \frac{d^3p_h}{(2\pi)2E_h} \Delta^h(l,p_h) = \Xi(l) \ , 
 \end{align}
-where $\Delta^h$ is the quark fragmentation correlator for production of a hadron of flavor $h$ and momentum $p_h$ \cite{New_testament}. In terms of the TMD fragmentation functions we are interested in, this reads
+where $\Delta^h$ is the quark fragmentation correlator for production of a
+hadron of flavor $h$ and momentum $p_h$ \cite{Bacchetta:2006tn}. In terms of
+the TMD fragmentation functions we are interested in, this reads 
 \begin{align}
   \label{eq:SIDIS_to_DIS_TMDlevel}
   \sum_h \int dz d^2p_{hT} z D_1^h(z,p_{hT}) & = \xi_2 = 1   \\
   \sum_h \int dz d^2p_{hT} E(z,p_{hT}) & = \xi_1 \ ,
 \end{align}
-where $D_1^h(z,p_{hT})$ is the twist-2 quark fragmentation function as a function of the hadron's collinear momentum fraction $z$ and transverse momentum $p_{hT}$, and $\tilde E^h(z,p_{hT})$ is a chiral-odd twist-3 function defined in \cite{New-testament}.
+where $D_1^h(z,p_{hT})$ is the twist-2 quark fragmentation function as a
+function of the hadron's collinear momentum fraction $z$ and transverse
+momentum $p_{hT}$, and $\tilde E^h(z,p_{hT})$ is a chiral-odd twist-3 function
+defined in \cite{Bacchetta:2006tn}. 
 
 % As we shall see, an analogous formula for quark-gluon-quark correlators is not needed.
 %The $\xi_1$ term is chiral-odd and therefore can appear in the inclusive cross section only coupled to the transversity function $h_1$. Therefore, for our analysis 
 The relevant part of the semi-inclusive hadronic tensor for our analysis is 
-\todo{[AA] I am using the notation in Piet Mulder's lecture notes - this will need to be checked.}
 \begin{align}
   \label{eq:Wsidis_ini}
   2 \Lambda  W^{\mu\nu}
@@ -337,13 +360,19 @@ The relevant part of the semi-inclusive hadronic tensor for our analysis is
   + 2 h_1(x_B) \sum_h \int dz d^2p_{hT} \tilde E^{q,h}(z,p_{hT}) \bigg] + \ldots
 \end{align}
 Here and we reintroduced the quark flavor $q$ for maximum clarity, and $e_q$ its electric charge.
-The first term can be easily integrated with the help of the sum rule \eqref{eq:SIDIS_to_DIS_TMDlevel}. To integrate the latter, we first need make use of the relation $\tilde E(z) = E(z) - (\mq/\Lambda) z D_1(z)$, which is a consequence of the QCD equations of motion \cite{New-testament}, then utilize the sum rule \eqref{eq:SIDIS_to_DIS}:
+The first term can be easily integrated with the help of the sum rule
+\eqref{eq:SIDIS_to_DIS_TMDlevel}. To integrate the latter, we first need make
+use of the relation $\tilde E(z) = E(z) - (\mq/\Lambda) z D_1(z)$, which is a
+consequence of the QCD equations of motion \cite{Bacchetta:2006tn}, then
+utilize the sum rule \eqref{eq:SIDIS_to_DIS}: 
 \begin{align}
   \sum_h \int dz d^2p_{hT} \tilde E^{q,h}(z,p_{hT}) 
     = \sum_h \int dz d^2p_{hT} \Big[ E^{q,h}(z,p_{hT}) - \frac{\mq}{\Lambda} z D_1^{q,h}(z,p_{hT}) \Big]
     = \xi_1 - \frac{\mq}{\Lambda} \xi_2 = \frac{\mj - \mq}{\Lambda} \ .
 \end{align}
-This formula is the single most important result of this paper, and provides a non perturbative generalization of the commonly used $\int\tilde E =0$ sum rule introduced in \cite{Jaffe-Ji}. Indeed, calculating the jet correlator
+This formula is the single most important result of this paper, and provides a
+non perturbative generalization of the commonly used $\int\tilde E =0$ sum
+rule introduced in \cite{Jaffe:1996zw}. Indeed, calculating the jet correlator 
 on the perturbative vacuum one would obtain, as already discussed, $\mj=\mq$
 and the new term would vanish.
 
@@ -394,7 +423,7 @@ discuss in the next section.
 
 \section{The $g_2$ structure function}
 
-The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function. Following the derivation in Ref.~\cite{ABMS}, one finds
+The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function. Following the derivation in Ref.~\cite{Accardi:2009au}, one finds
 \begin{align}
 \label{e:g2}
   g_2(x_B) = g_2^{WW} + \frac{1}{2}\,\sum_a e_a^2
@@ -407,7 +436,7 @@ The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function
 \end{align}
 where we defined $f^*(x) = -f(x) + \int_x^1\frac{dy}{y} f(y)$. The first 4
 terms coincide with the result obtained in the conventional handbag
-approximation \cite{ABMS}, while the fifth is new. 
+approximation \cite{Accardi:2009au}, while the fifth is new. 
 
 The first term is also known as the Wandzura-Wilczeck function $g_2^{WW} =
 -g_1^*(x)$ , and contains all the ``pure twist-2'' chiral even contributions to
@@ -434,12 +463,40 @@ g_2^{\text{quark}} &= \frac{1}{2}\,\sum_a e_a^2
 g_2^{\text{jet}} &= \frac{1}{2}\,\sum_a e_a^2 
 \frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x}. 
 \end{align} 
-These are comapred in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function obtained in the very recent JAM15 fit of polarized DIS asymmetries \cite{JAM15}, that includes a large amount of precise data at large $x$ from Jefferson Lab, and simultaneously fits the higher-twist components of in $g_1$ and $g_2$ to the data. For the ``pure twist-3'' contribution, $g_2^{tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix elements, we show a model calculation by Braun et al. \cite{Braun-et-al}; for other estimates, see \cite{Other-tw3-calcs}. To estimate the contributions from quark ($g_2^q$) and jet mass ($g_2^{jet}$) effects, that depend on chiral odd quark-quark matrix elements, we use the recent Pavia15 fit of the transversity distribution from Ref.~\cite{Radici:2015mwa}, which is comparable also to other
-extractions~\cite{Anselmino:2013vqa,Kang:2015msa}. Furthermore, we choose the values of the mass parameters to be $\mq=5$ MeV and $\mj = 100$ MeV.
+These are comapred in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function
+obtained in the very recent JAM15 fit of polarized DIS asymmetries
+\cite{Sato:2016tuz}, that includes a large amount of precise data at large $x$
+from Jefferson Lab, and simultaneously fits the higher-twist components of in
+$g_1$ and $g_2$ to the data. For the ``pure twist-3'' contribution,
+$g_2^{tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix
+elements, we show a model calculation by Braun et al.~\cite{Braun:2011aw}; for
+other estimates, see \cite{Other-tw3-calcs}. To estimate the contributions
+from quark ($g_2^q$) and jet mass ($g_2^{jet}$) effects, that depend on chiral
+odd quark-quark matrix elements, we use the recent Pavia15 fit of the
+transversity distribution from Ref.~\cite{Radici:2015mwa}, which is comparable
+also to other 
+extractions~\cite{Anselmino:2013vqa,Kang:2015msa}. Furthermore, we choose the
+values of the mass parameters to be $\mq=5$ MeV and $\mj = 100$ MeV. 
 
-As one can see, in the proton case the pure twist-3 contribution is quite smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As expected, the quark-mass contribution is essentially negligible and cannot reconcile these two. Even though the uncertainties in the $h_1$ extraction and even more the estimate of $M_q$ are large, it is quite clear that the gap between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be explained by the new jet-mass contribution we discussed in this paper. 
+As one can see, in the proton case the pure twist-3 contribution is quite
+smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As
+expected, the quark-mass contribution is essentially negligible and cannot
+reconcile these two. Even though the uncertainties in the $h_1$ extraction and
+even more the estimate of $M_q$ are large, it is quite clear that the gap
+between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be
+explained by the new jet-mass contribution we discussed in this paper.  
 
-In the neutron case, the jet contribution is very negative at intermediate to large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$ calculation by Braun et al., one would conclude that the jet contribution cannot be that large. However, the latteris dominated by the $d$ quark's transversity, whose fit suffers from large systematic uncertainties and saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate, however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement with the JAM15 fit of the non Wandzura-Wilczek contribution to $g_2$. Correspondingly the jet contribution to the proton at $x \approx 0.1$ would become less positive, inproving as well teh agreement with the JAM15 fit.
+In the neutron case, the jet contribution is very negative at intermediate to
+large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$
+calculation by Braun et al., one would conclude that the jet contribution
+cannot be that large. However, the latteris dominated by the $d$ quark's
+transversity, whose fit suffers from large systematic uncertainties and
+saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate,
+however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement
+with the JAM15 fit of the non Wandzura-Wilczek contribution to
+$g_2$. Correspondingly the jet contribution to the proton at $x \approx 0.1$
+would become less positive, inproving as well the agreement with the JAM15
+fit. 
 
 
 \begin{itemize}
@@ -447,8 +504,13 @@ In the neutron case, the jet contribution is very negative at intermediate to la
 \end{itemize}
 Some ideas to check:
 \begin{itemize}
-\item JAM13 neutron has almost 0 twist 3, with small positive contribution at small x. Can we use this to highlight teh $g_2^{jet}$ contribution? Or maybe as a cnstrain: if Braun is right then $g_2^{jet}(n) \approx -g_2^{tw3}(n)$. (still, does not help much for the proton).
-\item In Jam 13, Fig. 6, it looks like in general the violation of teh BC sum rule is a small-x effect --> constraints on h(x) fits? This cannot really be checked vs. JAM15, that assumes $g_2^(0)$ respects BC. 
+\item JAM13 neutron has almost 0 twist 3, with small positive contribution at
+  small x. Can we use this to highlight the $g_2^{jet}$ contribution? Or maybe
+  as a cnstrain: if Braun is right then $g_2^{jet}(n) \approx
+  -g_2^{tw3}(n)$. (still, does not help much for the proton). 
+\item In Jam 13, Fig. 6, it looks like in general the violation of the BC sum
+  rule is a small-x effect --> constraints on h(x) fits? This cannot really be
+  checked vs. JAM15, that assumes $g_2^(0)$ respects BC.  
 \end{itemize}
 
 \begin{figure}[tbh]
@@ -456,7 +518,15 @@ Some ideas to check:
 \includegraphics[width=8cm]{g2contrib}
 \includegraphics[width=8cm]{g2contribN}
 \caption{\label{f:g2contrib} 
-Different contributions to the non Wandzura-Wilczek part of the proton (left) and neutron (right) $g_2$ structure function compared to the JAM15 fit of the  $g_2-g_2^{\text{WW}}$ (solid black) \cite{JAM15}. The quark and jet contributions are shown with a dotted red and a dot-dashed green line respectively, with uncertainty bands coming form the Pavia15 fit of the transversity function \cite{Pavia15}. The unceratainty in the choice $m_q=5$ GeV and $M_q=100$ GeV is not shown. The pure twist-3 contribution calculated by Braun et al. \cite{Braun-et-al} is shown as a dashed blue line (no uncertainty estiamte was provided in teh original reference).
+Different contributions to the non Wandzura-Wilczek part of the proton (left)
+and neutron (right) $g_2$ structure function compared to the JAM15 fit of the
+$g_2-g_2^{\text{WW}}$ (solid black) \cite{Sato:2016tuz}. The quark and jet
+contributions are shown with a dotted red and a dot-dashed green line
+respectively, with uncertainty bands coming form the Pavia15 fit of the
+transversity function \cite{Radici:2015mwa}. The unceratainty in the choice
+$m_q=5$ GeV and $M_q=100$ GeV is not shown. The pure twist-3 contribution
+calculated by Braun et al. \cite{Braun:2011aw} is shown as a dashed blue line
+(no uncertainty estiamte was provided in the original reference). 
 }
 \end{center}
 \end{figure}
@@ -472,22 +542,24 @@ For a generic function $f$, let us define it's $N$-th moment as $f[N]=\int_0^1 d
     + \frac{(N+1) M_q-m_q}{\Lambda} h_1^q[N] \bigg) \ .
 \end{align}
 
-The zero-th moment provides an interestign relationship between the longitudinal and tensor spin structure of the target,
+The zero-th moment provides an interesting relationship between the longitudinal and tensor spin structure of the target,
 \begin{align}
   \label{eq:BC}
   \int dx\, g_2(x) = \sum_q e_q^2 \frac{\mj-\mq}{\Lambda} \int dx\, \frac{1}{x} h_1^q(x) \ ,
 \end{align}
-where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry properties of the quark-gluon-quark correlators. The sum rule \eqref{eq:BC}, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays a contribution from spin-flip processes, that are included in the original derivation by Burkhardt and Cottingham \cite{BC} but do not show up in treatments that only consider free field quark propagators for the struck quark \cite{Jaffe-lectures}. Assuming the Burkhardt-Cottingham sum rule $\int_0^1 dx\, g_2(x) =0$, that is derived at the cross section level (under suitable assumptions on teh high-energy behavior of te hspin-flip amplitude) rather than from an analysis of collinear correlators, as done here, to be strictly valid, we obtain a strong constraint on the transversity function,
+where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry properties of the quark-gluon-quark correlators. The sum rule \eqref{eq:BC}, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays a contribution from spin-flip processes, that are included in the original derivation by Burkhardt and Cottingham \cite{Burkhardt:1970ti} but do not show up in treatments that only consider free field quark propagators for the struck quark \cite{Jaffe:1996zw}. Assuming the Burkhardt-Cottingham sum rule $\int_0^1 dx\, g_2(x) =0$, that is derived at the cross section level (under suitable assumptions on teh high-energy behavior of te hspin-flip amplitude) rather than from an analysis of collinear correlators, as done here, to be strictly valid, we obtain a strong constraint on the transversity function,
 \begin{align}
    \int dx\, \frac{1}{x} h_1^q(x) = 0 \ .
 \label{eq:ABsumrule}
 \end{align}
-Interestingly, one can show that this constraint, if valid at any given scale $Q_0$ is conserved through QCD evolution. Even if the BC sum rule is broken either by a $J = 0$ fixed pole with non-polynomial residue \cite{Jaffe-lectures} or explicitly as, \eg, in the quark target model \cite{Metz-Kundu)} -- i.e., if $g_2$ integrates to a finite but non-zero number -- we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
+Interestingly, one can show that this constraint, if valid at any given scale $Q_0$ is conserved through QCD evolution. Even if the BC sum rule is broken either by a $J = 0$ fixed pole with non-polynomial residue \cite{Jaffe:1996zw} or explicitly as, \eg, in the quark target model \cite{Metz-Kundu} -- i.e., if $g_2$ integrates to a finite but non-zero number -- we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
 \begin{align}
   h_1^q(x) \propto x^\epsilon \ \ \ \epsilon>0 \ .
 \label{eq:ABbound}
 \end{align}
-This bound will be very useful, \eg, in transversity fits, where the data at small $x$ is, as yet, very limited, and in general for proper extrapolations when calculating moments.
+This bound will be very useful, \eg, in transversity fits, where the data at
+small $x$ is, as yet, very limited, and in general for proper extrapolations
+when calculating moments. 
 
 The first moment is the first in which a contribution from the pure twist-3 part of $g_2$ appears:
 \begin{align}
@@ -495,12 +567,15 @@ The first moment is the first in which a contribution from the pure twist-3 part
     + \frac{2M_q-m_q}{\Lambda} h_1^q[1] \bigg)
 \end{align}
 where $h_1^q[1] = \int_0^1 dx h_1^q(x)$ is the contribution of a quark $q$ to the tensor charge. 
-The third moment is also interesting because the pure twist-3 part can be related to quark-gluon-quark correlators, see \cite{Jaffe-lectures}, and interpreted as as the average color force experienced by the struck quark as it exits the nucleon \cite{M.Burkardt}:
+The third moment is also interesting because the pure twist-3 part can be related to quark-gluon-quark correlators, see  \cite{Jaffe:1996zw}, and interpreted as as the average color force experienced by the struck quark as it exits the nucleon \cite{Burkardt:2012sd}:
 \begin{align}
   d_2 & = \frac12 \sum_q e_q^2 \bigg( 3 \tilde g_T^q[2] + \hat g_T^q[2]
     + \frac{3M_q-m_q}{\Lambda} h_1^q[2] \bigg)
 \end{align}
-In both of these cases, the transversity contribution is a background to the extraction of the pure twist-3 piece. Fortunately, it is a quantity that can be extracted from the lattice \cite{Bhattacharya:2016zcn} or fitted \cite{Pavia15, others, reviews?}. Furthermore, the new sum rule \eqref{eq:ABsumrule} and the bound \eqref{eq:ABbound} promise to improve future transversity fits. What is less obvious is how to calculate $M_q-m_q$ from first principles, since this is related to the spectral function of the quark propagator. We will, however, briefly discuss perspectives on how to measure it. Therefore the pure twist-3 part can, in principle, be properly isolated.
+In both of these cases, the transversity contribution is a background to the extraction of the pure twist-3 piece. Fortunately, it is a quantity that can be extracted from the lattice
+\cite{Green:2012ej,Bali:2014nma,Bhattacharya:2015wna,Abdel-Rehim:2015owa,Bhattacharya:2016zcn} or fitted
+\cite{Radici:2015mwa,Anselmino:2015sxa,Kang:2015msa}.
+Furthermore, the new sum rule \eqref{eq:ABsumrule} and the bound \eqref{eq:ABbound} promise to improve future transversity fits. What is less obvious is how to calculate $M_q-m_q$ from first principles, since this is related to the spectral function of the quark propagator. We will, however, briefly discuss perspectives on how to measure it. Therefore the pure twist-3 part can, in principle, be properly isolated.
 
 
 \begin{figure}[tbh]

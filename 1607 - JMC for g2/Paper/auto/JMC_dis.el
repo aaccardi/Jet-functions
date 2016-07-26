@@ -4,24 +4,27 @@
      "mybiblio")
     (LaTeX-add-labels
      "e:xifull"
-     "fig:handbags"
      "e:jetexpansion"
      "e:jetexpansion-tw3"
      "e:jetspectral"
      "eq:jetfnsprops"
      "eq:jet_vs_spectral"
+     "fig:handbags"
      "eq:F2"
      "eq:mjet"
      "eq:xi2_chiral_cond"
      "e:xi_A"
      "eq:SIDIS_to_DIS"
+     "eq:SIDIS_to_DIS_TMDlevel"
      "eq:Wsidis_ini"
      "e:crossdis"
      "e:FUTint"
      "e:FLTint"
      "e:g2"
      "f:g2contrib"
-     "eq:BC")
+     "eq:BC"
+     "eq:ABsumrule"
+     "eq:ABbound")
     (TeX-add-symbols
      '("todo" 1)
      "Pslash"
@@ -36,7 +39,9 @@
      "xbj"
      "de"
      "ii"
+     "eg"
      "mj"
+     "mq"
      "mjs"
      "AAcom"
      "AAmod")
