@@ -174,7 +174,9 @@ focus, instead, on the role of chiral odd terms in the $g_2$ structure function 
 \end{equation} 
 is nothing else than the full quark propagator; note however, that we consider
 here the full QCD vacuum rather than the perturbative one.  
-The $A_1$ and $A_2$ terms can be nicely interpreted in terms of the spectral representation of the cut quark propagator \cite{D'Hoker-lecture-notes,Romao-lecture-notes},
+The $A_1$ and $A_2$ terms can be nicely interpreted in terms of the spectral
+representation of the cut quark propagator (see, e.g., Sec.~6.3 of
+\cite{D'Hoker:2004aa} and Sec.~2.7.2 of \cite{Romao:2013aa}),
 \begin{align} 
   \Xi(l) =  
   \int d \mu^2 \big[ J_1 (\mu^2)\,\mu + J_2 (\mu^2)\,\lslash \big] \,
@@ -185,7 +187,7 @@ where $\mu^2$ is interpreted as the invariant mass of the current jet, {\it
   i.e.}, of the particles going through the cut in the top blob of
 Fig.\ref{fig:handbags}(a), and the $J_i$ are the spectral functions of the
 quark propagator, that have been also called ``jet functions'' in
-\cite{Accardi:2008ne,SCET?}. These satisfy
+\cite{Accardi:2008ne}. These satisfy
 \begin{align}
   J_2(\mu^2) \geq J_1(\mu^2) \geq 0
   \hspace*{0.5cm} \text{and} \hspace*{0.5cm}
@@ -257,7 +259,7 @@ where
 where $\mj$ can be interpreted as the average invariant mass produced in the spin-flip fragmentation processes of a quark of flavor $q$.
 % The $\xi_1$ and $\xi_4$ have an interpretation as average invariant mass (and mass squared) of the current jet, and $l^-=q^- + O(1/Q)$ is imposed by 4-momentum conservation at the hard scattering vertex. The $\xi^4$ term contributes at order $O(1/Q^2)$ and is no further considered in this paper. 
 It is important to notice that $\xi_2=1$ exactly due to CPT invariance
-\cite{Weinberg:1995mt}, while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is
+(see Sec.~10.7 of Ref.~\cite{Weinberg:1995mt}), while $0 < \mj < \int d\mu^2 \mu J_2(\mu^2)$ is
 dynamically determined. From the analytic properties of spectral functions we
 may expect \cite{Accardi:2008ne} $J_2(\mu^2) = Z \delta(\mu^2-m_q) + \bar J_2
 (\mu^2) \theta (\mu^2-m_\pi^2)$ with the continuum starting at $m_\pi$, the
@@ -265,7 +267,7 @@ mass of the pion, due to color confinement effects. Taking into account that
 $J_1 < J_2$, we may therefore expect  
 \begin{align}
   \label{eq:mjet}
-  \mj = O(10-100 \text{ MeV}) \ .
+  \mj = O(10^2 \text{ MeV}) \ .
 \end{align}
 Although $\mj$ is in general a nonperturbative quantity, it is interesting to
 notice that  
@@ -276,7 +278,7 @@ notice that
 \end{align}
 % \todo{[AA] 2 issues here: (1) possible factors of 4. 
 % (2) I am neglecting the sum over quarks; we have to fix that somehow but there is a little tension between the quark level $\xi^a$ and the contribution to structure function which is summed and weighted by the electron charge.} 
-Calculating this on the perturbative vacuum and limiting oneself to LO
+Calculating this on the perturbative vacuum and to leading order
 corresponds to taking the trace of the cut bare-quark propagator to obtain 
 $\mj = \,_{\text{pert}} \langle 0
 |  \bar \psi_i(0) \psi_i(0) | 0 \rangle_{\text{pert}}  = \mq$, with $\mq$ the quark mass, recovering the
@@ -314,9 +316,9 @@ $\Xi_A^{\mu}(l,k)$ in diagrams \ref{fig:handbags}(c),
 \label{e:xi_A}
 \end{split} 
 \end{equation}  
-This diagram and its hermitian conugate are not only important to account for
-all contribution of order $O(1/Q)$, but also in restoring up to twist-3 the
-gauge invariance broken in diagram \ref{fig:handbags}(a) by the different mass
+This diagram and its Hermitian conjugate are not only important to account for
+all contribution of order $O(1/Q)$, but also to restore the
+gauge invariance, which is broken in diagram \ref{fig:handbags}(a) due to the different mass
 of the incoming and outgoing quark lines, namely, $\mq \neq \mj$. 
 
 Rather than directly using the definition \eqref{e:xi_A}, it is convenient to
@@ -353,12 +355,12 @@ The relevant part of the semi-inclusive hadronic tensor for our analysis is
   %\\ &
   + 2 h_1(x_B) \sum_h \int dz d^2p_{hT} \tilde E^{q,h}(z,p_{hT}) \bigg] + \ldots
 \end{align}
-Here and we reintroduced the quark flavor $q$ for maximum clarity, and $e_q$ its electric charge.
+For clarity, here we reintroduced the quark flavor $q$, $e_q$ being its electric charge.
 The first term can be easily integrated with the help of the sum rule
 \eqref{eq:SIDIS_to_DIS_TMDlevel}. To integrate the latter, we first need make
 use of the relation $\tilde E(z) = E(z) - (\mq/\Lambda) z D_1(z)$, which is a
 consequence of the QCD equations of motion \cite{Bacchetta:2006tn}, then
-utilize the sum rule \eqref{eq:SIDIS_to_DIS}: 
+make use of the sum rule \eqref{eq:SIDIS_to_DIS}: 
 \begin{align}
   \sum_h \int dz d^2p_{hT} \tilde E^{q,h}(z,p_{hT}) 
     = \sum_h \int dz d^2p_{hT} \Big[ E^{q,h}(z,p_{hT}) - \frac{\mq}{\Lambda} z D_1^{q,h}(z,p_{hT}) \Big]
@@ -370,7 +372,8 @@ rule introduced in \cite{Jaffe:1996zw}. Indeed, calculating the jet correlator
 on the perturbative vacuum one would obtain, as already discussed, $\mj=\mq$
 and the new term would vanish.
 
-Finally, with suitable projections of the hadronic tensor, the inclusive cross section up to order $\Lambda/Q$ can be written as
+Finally, the contraction of the hadronic tensor with the leptonic tensor leads
+to the following well known result for the inclusive DIS cross section up to order $\Lambda/Q$~\cite{Bacchetta:2006tn}
 \begin{align}
 \frac{d\sigma}{d\xbj \, dy\, d\psi}
 %&
@@ -390,7 +393,7 @@ F_{LT}^{\cos \phi_S}
  \biggr\} \ ,
 \label{e:crossdis}
 \end{align}
-where the structure functions on the right hand side are defined as
+where the structure functions on the right hand side correspond to
 \begin{align}
 F_{UU ,T} &= \xbj\,\sum_q e_q^2\,f_1^q(\xbj),
 \\
@@ -407,10 +410,10 @@ F_{LT}^{\cos \phi_S}&=-\xbj\,\sum_q e_q^2\, \frac{2\Lambda}{Q}\,
 \label{e:FLTint}
 \end{align}
 The second term in the last structure function is a new result from our
-analysis; it is not suppressed as an inverse power of $Q$, and therefore
-survives even in the Bjorken limit. On the non-perturbative
+analysis; it is not suppressed as an inverse power of $Q$ compared to the
+standard term. On the nonperturbative
 vacuum the jet mass is larger than the quark's, and this contributes a
-non-negligible term to the twist-3 part of the $g_2$ function, as we will
+nonnegligible term to the twist-3 part of the $g_2$ function, as we will
 discuss in the next section.  
 
  
@@ -428,12 +431,12 @@ The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function
     + \frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x} 
 \Biggr) \ ,
 \end{align}
-where we defined $f^*(x) = -f(x) + \int_x^1\frac{dy}{y} f(y)$. The first 4
+where we defined $f^*(x) = -f(x) + \int_x^1\frac{dy}{y} f(y)$. The first four
 terms coincide with the result obtained in the conventional handbag
 approximation \cite{Accardi:2009au}, while the fifth is new. 
 
 The first term is also known as the Wandzura-Wilczeck function $g_2^{WW} =
--g_1^*(x)$ , and contains all the ``pure twist-2'' chiral even contributions to
+-g_1^*(x)$ , and contains all the twist-2 chiral-even contributions to
 the $g_2$ structure coming from quark-quark correlators. The second and third
 terms contain all ``pure twist-3'' contributions, i.e., those coming from
 quark-gluon-quark correlators. The fourth and fifth terms depend on the
@@ -445,7 +448,7 @@ of $O$(100 MeV), and cannot be a priori neglected.
 
 It is important to estimate the size of the various contributions to the non Wandzura-Wilczek part of $g_2$. We define the shorthand notation
 \begin{align}
-g_2^{tw3} & = \frac{1}{2}\,\sum_a e_a^2
+g_2^{\rm tw3} & = \frac{1}{2}\,\sum_a e_a^2
     \biggl(
     \widetilde g_T^{a \star}(x) 
     + \int_x^1\frac{dy}{y} \widehat{g}_T^q(y) 
@@ -457,15 +460,15 @@ g_2^{\text{quark}} &= \frac{1}{2}\,\sum_a e_a^2
 g_2^{\text{jet}} &= \frac{1}{2}\,\sum_a e_a^2 
 \frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x}. 
 \end{align} 
-These are comapred in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function
+These are compared in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function
 obtained in the very recent JAM15 fit of polarized DIS asymmetries
 \cite{Sato:2016tuz}, that includes a large amount of precise data at large $x$
 from Jefferson Lab, and simultaneously fits the higher-twist components of in
 $g_1$ and $g_2$ to the data. For the ``pure twist-3'' contribution,
-$g_2^{tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix
+$g_2^{\rm tw3}$, {\it i.e.}, the contribution from quark-gluon-quark matrix
 elements, we show a model calculation by Braun et al.~\cite{Braun:2011aw}; for
 (modified) bag model calculations, see \cite{Jaffe:1990qh,Stratmann:1993aw}. To estimate the contributions
-from quark ($g_2^q$) and jet mass ($g_2^{jet}$) effects, that depend on chiral
+from quark ($g_2^q$) and jet mass ($g_2^{\rm jet}$) effects, that depend on chiral
 odd quark-quark matrix elements, we use the recent Pavia15 fit of the
 transversity distribution from Ref.~\cite{Radici:2015mwa}, which is comparable
 also to other 
@@ -477,11 +480,11 @@ smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As
 expected, the quark-mass contribution is essentially negligible and cannot
 reconcile these two. Even though the uncertainties in the $h_1$ extraction, and
 even more in the estimate of $M_q$, are large, it is quite clear that the gap
-between the pure twist-3 $g_2^{tw3}$ function and the JAM15 fit can be
+between the pure twist-3 $g_2^{\rm tw3}$ function and the JAM15 fit can be
 explained by the new jet-mass contribution we discussed in this paper.  
 
 In the neutron case, the jet contribution is very negative at intermediate to
-large values of $x$. If one trusts the order of magnituse of the $g_2^{tw3}$
+large values of $x$. If one trusts the order of magnituse of the $g_2^{\rm tw3}$
 calculation by Braun et al., one would conclude that the jet contribution
 cannot be that large. However, the latter is dominated by the $d$ quark's
 transversity, whose fit suffers from large systematic uncertainties and
@@ -499,9 +502,9 @@ fit.
 Some ideas to check:
 \begin{itemize}
 \item JAM13 neutron has almost 0 twist 3, with small positive contribution at
-  small x. Can we use this to highlight the $g_2^{jet}$ contribution? Or maybe
-  as a cnstrain: if Braun is right then $g_2^{jet}(n) \approx
-  -g_2^{tw3}(n)$. (still, does not help much for the proton). 
+  small x. Can we use this to highlight the $g_2^{\rm jet}$ contribution? Or maybe
+  as a cnstrain: if Braun is right then $g_2^{\rm jet}(n) \approx
+  -g_2^{\rm tw3}(n)$. (still, does not help much for the proton). 
 \item In Jam 13, Fig. 6, it looks like in general the violation of the BC sum
   rule is a small-x effect --> constraints on h(x) fits? This cannot really be
   checked vs. JAM15, that assumes $g_2^(0)$ respects BC.  
@@ -546,7 +549,7 @@ where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry pr
    \int dx\, \frac{1}{x} h_1^q(x) = 0 \ .
 \label{eq:ABsumrule}
 \end{align}
-Interestingly, one can show that this constraint, if valid at any given scale $Q_0$ is conserved through QCD evolution. Even if the BC sum rule is broken either by a $J = 0$ fixed pole with non-polynomial residue \cite{Jaffe:1996zw} or explicitly as, \eg, in the quark target model \cite{Metz-Kundu} -- i.e., if $g_2$ integrates to a finite but non-zero number -- we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
+Interestingly, one can show that this constraint, if valid at any given scale $Q_0$ is conserved through QCD evolution. Even if the BC sum rule is broken either by a $J = 0$ fixed pole with non-polynomial residue \cite{Jaffe:1996zw} or explicitly as, \eg, in the quark target model \cite{Kundu:2001pk} -- i.e., if $g_2$ integrates to a finite but nonzero number -- we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
 \begin{align}
   h_1^q(x) \propto x^\epsilon \ \ \ \epsilon>0 \ .
 \label{eq:ABbound}
@@ -577,12 +580,12 @@ Furthermore, the new sum rule \eqref{eq:ABsumrule} and the bound \eqref{eq:ABbou
   \parbox[b]{8cm}{\centering
   \includegraphics
       [width=7cm,clip=true]
-      {epl_emn_h_X.eps}
+      {epl_emn_h_X}
   }
   \parbox[b]{8cm}{\vskip-0.5cm\centering
   \includegraphics
       [width=7cm,clip=true]
-      {epl_emn_h_h_X.eps}
+      {epl_emn_h_h_X}
   }
   \caption{\small
 	Single hadron {\it (left)} and double hadron {\it (right)}

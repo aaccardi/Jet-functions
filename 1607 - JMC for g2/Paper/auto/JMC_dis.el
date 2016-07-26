@@ -24,7 +24,8 @@
      "f:g2contrib"
      "eq:BC"
      "eq:ABsumrule"
-     "eq:ABbound")
+     "eq:ABbound"
+     "fig:epl_emn_h")
     (TeX-add-symbols
      '("todo" 1)
      "Pslash"
