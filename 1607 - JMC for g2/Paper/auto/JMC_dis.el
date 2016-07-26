@@ -22,7 +22,9 @@
      "e:FLTint"
      "e:g2"
      "f:g2contrib"
-     "eq:BC")
+     "eq:BC"
+     "eq:ABsumrule"
+     "eq:ABbound")
     (TeX-add-symbols
      '("todo" 1)
      "Pslash"

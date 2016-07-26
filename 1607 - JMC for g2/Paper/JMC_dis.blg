@@ -2,78 +2,78 @@ This is BibTeX, Version 0.99c (Web2C 7.5.4)
 The top-level auxiliary file: JMC_dis.aux
 The style file: myrevtex.bst
 Database file #1: mybiblio.bib
-You're missing a field name---line 1086 of file mybiblio.bib
+Repeated entry---line 290 of file mybiblio.bib
+ : @article{Abdel-Rehim:2015owa
+ :                             ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1125 of file mybiblio.bib
  : 
  : %url            = "http://inspirehep.net/record/1410100/files/arXiv:1512.05379.pdf",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1534 of file mybiblio.bib
+You're missing a field name---line 1573 of file mybiblio.bib
  : 
  : %      url            = "http://inspirehep.net/record/1411657/files/arXiv:1512.09014.pdf",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1637 of file mybiblio.bib
+You're missing a field name---line 1676 of file mybiblio.bib
  : 
  : %      url            = "http://inspirehep.net/record/1375601/files/78.pdf",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2378 of file mybiblio.bib
+Repeated entry---line 2417 of file mybiblio.bib
  : @article{Kang:2015msa
  :                      ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5306 of file mybiblio.bib
+You're missing a field name---line 5345 of file mybiblio.bib
  : 
  : %      url            = "http://www.cambridge.org/de/knowledge/isbn/item5756723",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Abdel-Rehim:2015ow"
 Warning--I didn't find a database entry for "D'Hoker-lecture-notes"
 Warning--I didn't find a database entry for "Romao-lecture-notes"
 Warning--I didn't find a database entry for "SCET?"
-Warning--I didn't find a database entry for "Weinberg-book"
-Warning--I didn't find a database entry for "ABMS"
-Warning--I didn't find a database entry for "Braun-et-al"
 Warning--I didn't find a database entry for "Other-tw3-calcs"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 21 entries,
+You've used 28 entries,
             3496 wiz_defined-function locations,
-            1388 strings with 15503 characters,
-and the built_in function-call counts, 16782 in all, are:
-= -- 897
-> -- 680
-< -- 90
-+ -- 580
-- -- 166
-* -- 2366
-:= -- 1737
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 84
-chr.to.int$ -- 21
-cite$ -- 21
-duplicate$ -- 1449
-empty$ -- 1355
-format.name$ -- 403
-if$ -- 3147
-int.to.chr$ -- 1
-int.to.str$ -- 22
-missing$ -- 227
-newline$ -- 98
-num.names$ -- 63
-pop$ -- 376
+            1439 strings with 17151 characters,
+and the built_in function-call counts, 21745 in all, are:
+= -- 1171
+> -- 858
+< -- 114
++ -- 729
+- -- 210
+* -- 3048
+:= -- 2272
+add.period$ -- 28
+call.type$ -- 28
+change.case$ -- 113
+chr.to.int$ -- 27
+cite$ -- 28
+duplicate$ -- 1882
+empty$ -- 1778
+format.name$ -- 509
+if$ -- 4088
+int.to.chr$ -- 2
+int.to.str$ -- 29
+missing$ -- 296
+newline$ -- 126
+num.names$ -- 84
+pop$ -- 491
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 112
 quote$ -- 0
-skip$ -- 610
+skip$ -- 790
 stack$ -- 0
-substring$ -- 509
-swap$ -- 1240
-text.length$ -- 82
+substring$ -- 671
+swap$ -- 1590
+text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 166
 warning$ -- 0
-while$ -- 62
+while$ -- 81
 width$ -- 0
-write$ -- 243
-(There were 5 error messages)
+write$ -- 320
+(There were 6 error messages)
