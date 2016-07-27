@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -293,6 +293,15 @@ ture%20notes/quantum_field_theory.pdf}.
   \textbf{\bibinfo{volume}{D87}}, \bibinfo{pages}{094019}
   (\bibinfo{year}{2013}).
 %%CITATION = ARXIV:1303.3822;%%
+
+\bibitem[{\citenamefont{Radici et~al.}(2016)\citenamefont{Radici, Ricci,
+  Bacchetta, and Mukherjee}}]{Radici:2016lam}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
+  \bibinfo{author}{\bibfnamefont{A.~M.} \bibnamefont{Ricci}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Mukherjee}}
+  (\bibinfo{year}{2016}), {arXiv:1604.06585 [hep-ph]}.
+%%CITATION = ARXIV:1604.06585;%%
 
 \bibitem[{\citenamefont{Burkhardt and Cottingham}(1970)}]{Burkhardt:1970ti}
 \bibinfo{author}{\bibfnamefont{H.}~\bibnamefont{Burkhardt}} \bibnamefont{and}

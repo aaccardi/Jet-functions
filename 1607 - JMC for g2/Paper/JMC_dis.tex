@@ -433,7 +433,10 @@ The new term in Eq.\eqref{e:FLTint} only appears in the $g_2$ structure function
 \end{align}
 where we defined $f^*(x) = -f(x) + \int_x^1\frac{dy}{y} f(y)$. The first four
 terms coincide with the result obtained in the conventional handbag
-approximation \cite{Accardi:2009au}, while the fifth is new. 
+approximation \cite{Accardi:2009au}, while the fifth is new. Note that even if
+the relation is written for the sum of the quark weighted by their charge
+squared, it can be considered valid also flavor by flavor. In fact, the steps
+leading to such a decomposition are formulated at the correlator level.
 
 The first term is also known as the Wandzura-Wilczeck function $g_2^{WW} =
 -g_1^*(x)$ , and contains all the twist-2 chiral-even contributions to
@@ -448,16 +451,16 @@ of $O$(100 MeV), and cannot be a priori neglected.
 
 It is important to estimate the size of the various contributions to the non Wandzura-Wilczek part of $g_2$. We define the shorthand notation
 \begin{align}
-g_2^{\rm tw3} & = \frac{1}{2}\,\sum_a e_a^2
+g_2^{\rm tw3} & = \frac{1}{2}\,\sum_q e_q^2
     \biggl(
-    \widetilde g_T^{a \star}(x) 
+    \widetilde g_T^{q \star}(x) 
     + \int_x^1\frac{dy}{y} \widehat{g}_T^q(y) 
     \biggr) 
 &
-g_2^{\text{quark}} &= \frac{1}{2}\,\sum_a e_a^2 
+g_2^{\text{quark}} &= \frac{1}{2}\,\sum_q e_q^2 
  \frac{\mq}{\Lambda} (h_1^q/x)^\star(x),
 &
-g_2^{\text{jet}} &= \frac{1}{2}\,\sum_a e_a^2 
+g_2^{\text{jet}} &= \frac{1}{2}\,\sum_q e_q^2 
 \frac{\mj-\mq}{\Lambda} \frac{h_1^q(x)}{x}. 
 \end{align} 
 These are compared in Figure~\ref{f:g2contrib} to the $g_2-g_2^{WW}$ function
@@ -477,38 +480,32 @@ values of the mass parameters to be $\mq=5$ MeV and $\mj = 100$ MeV.
 
 As one can see, in the proton case the pure twist-3 contribution is quite
 smaller in magnitude, and opposite in sign, compared to the JAM15 fit. As
-expected, the quark-mass contribution is essentially negligible and cannot
-reconcile these two. Even though the uncertainties in the $h_1$ extraction, and
-even more in the estimate of $M_q$, are large, it is quite clear that the gap
+expected, the quark-mass contribution is essentially negligible. 
+For what concerns the jet-mass contribution, the uncertainties due to the $h_1$
+extraction are very large, especially at low $x$. In addition, there is an
+overall normalization uncertainty due to the choice of $\mj$, not shown in the
+plot. In any case, the jet-mass contribution is strikingly large. If we assume
+that the pure twist-3 contributions are of the order of the model calculation
+by Braun et al., the breaking of the Wandura-Wilczek relation can be used to
+constrain the extractions of the transversity distribution, in particular at
+low $x$. 
+Moreover, it is quite clear that the gap
 between the pure twist-3 $g_2^{\rm tw3}$ function and the JAM15 fit can be
 explained by the new jet-mass contribution we discussed in this paper.  
 
 In the neutron case, the jet contribution is very negative at intermediate to
-large values of $x$. If one trusts the order of magnituse of the $g_2^{\rm tw3}$
+large values of $x$. 
+If one trusts the order of magnitude of the $g_2^{\rm tw3}$
 calculation by Braun et al., one would conclude that the jet contribution
-cannot be that large. However, the latter is dominated by the $d$ quark's
+should not be that large. However, the jet contribution is strongly influenced
+by the $d$ quark's
 transversity, whose fit suffers from large systematic uncertainties and
-saturates the negative Soffer bound.Recent deata in $p+p$ collisions indicate,
-however, that $h_1^d$ is less negative than in the Pavia15 fits, in agreement
-with the JAM15 fit of the non Wandzura-Wilczek contribution to
-$g_2$. Correspondingly the jet contribution to the proton at $x \approx 0.1$
+saturates the negative Soffer bound. Recent deata in $p+p$ collisions indicate,
+however, that $h_1^d$ might be less negative than in the Pavia15
+fits~\cite{Radici:2016lam}.
+Correspondingly the jet contribution to the proton at $x \approx 0.1$
 would become less positive, inproving as well the agreement with the JAM15
 fit. 
-
-
-\begin{itemize}
-\item smaller-$x$: constrains the small-$x$ behavior of transversity.
-\end{itemize}
-Some ideas to check:
-\begin{itemize}
-\item JAM13 neutron has almost 0 twist 3, with small positive contribution at
-  small x. Can we use this to highlight the $g_2^{\rm jet}$ contribution? Or maybe
-  as a cnstrain: if Braun is right then $g_2^{\rm jet}(n) \approx
-  -g_2^{\rm tw3}(n)$. (still, does not help much for the proton). 
-\item In Jam 13, Fig. 6, it looks like in general the violation of the BC sum
-  rule is a small-x effect --> constraints on h(x) fits? This cannot really be
-  checked vs. JAM15, that assumes $g_2^(0)$ respects BC.  
-\end{itemize}
 
 \begin{figure}[tbh]
 \begin{center}
@@ -523,7 +520,7 @@ respectively, with uncertainty bands coming form the Pavia15 fit of the
 transversity function \cite{Radici:2015mwa}. The unceratainty in the choice
 $m_q=5$ GeV and $M_q=100$ GeV is not shown. The pure twist-3 contribution
 calculated by Braun et al. \cite{Braun:2011aw} is shown as a dashed blue line
-(no uncertainty estiamte was provided in the original reference). 
+(no uncertainty estimate was provided in the original reference). 
 }
 \end{center}
 \end{figure}
@@ -539,17 +536,62 @@ For a generic function $f$, let us define it's $N$-th moment as $f[N]=\int_0^1 d
     + \frac{(N+1) M_q-m_q}{\Lambda} h_1^q[N] \bigg) \ .
 \end{align}
 
-The zero-th moment provides an interesting relationship between the longitudinal and tensor spin structure of the target,
+The zero-th moment provides an interesting relationship between transversity
+and the inclusive structure function $g_2$:
 \begin{align}
   \label{eq:BC}
   \int dx\, g_2(x) = \sum_q e_q^2 \frac{\mj-\mq}{\Lambda} \int dx\, \frac{1}{x} h_1^q(x) \ ,
 \end{align}
-where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry properties of the quark-gluon-quark correlators. The sum rule \eqref{eq:BC}, in which the pure twist-3 part does not take part, is a consequence of the Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) = \int_0^1 g_T^q(x)$. It explicitly displays a contribution from spin-flip processes, that are included in the original derivation by Burkhardt and Cottingham \cite{Burkhardt:1970ti} but do not show up in treatments that only consider free field quark propagators for the struck quark \cite{Jaffe:1996zw}. Since $h_1$ is driven to 0 by QCD evolution as $Q^2 \to \infty$, the BC sum rule $\int_0^1 dx\, g_2(x) =0$ is satisfied at least asymptotically. At finite scales, assuming the Burkhardt-Cottingham sum rule, that is derived at the cross section level (under suitable assumptions on the high-energy behavior of te hspin-flip amplitude) rather than from an analysis of collinear correlators, as done here, to be strictly valid, we obtain a strong constraint on the transversity function,
+where we used the fact that $\hat g_T^q[0]=0$ identically due to the symmetry
+properties of the quark-gluon-quark correlators. 
+The sum rule \eqref{eq:BC}
+generalizes the Burkhardt-Cottingham (BC) sum rule~\cite{Burkhardt:1970ti},
+which states that  $\int_0^1 dx\, g_2(x) =0$. 
+However, we show that jet-mass corrections violate the BC sum rule. The
+possibility of a violation of the sum rule due to 
+contributions from spin-flip
+processes was already mentioned in the original
+derivation~\cite{Burkhardt:1970ti}, 
+but do not show up in treatments that only
+consider free field quark propagators for the struck quark
+\cite{Jaffe:1996zw}. Since $h_1$ is driven to 0 by QCD evolution as $Q^2 \to
+\infty$, the BC sum rule $\int_0^1 dx\, g_2(x) =0$ is satisfied at least
+asymptotically. Although we formulated \eqref{eq:BC} in terms of sum over quark flavors in order to display a clear
+connection to the structure function $g_2$, we stress that it is valid also
+flavor by flavor, i.e., for each single flavor the only measurable nonzero contribution to the zeroth moment of the
+structure function $g_2$ can come from the jet-mass
+corrections and transversity.\footnote{This conclusion is true even if the BC sum rule is broken by a $J = 0$ fixed pole with
+non-polynomial residue \cite{Jaffe:1996zw}, since this would appear as a
+$\delta(x)$ contribution and would not be measurable.}
+The fact that $g_2^{\text{quark}}$ disappears in the zeroth moment
+of $g_2$ is due to the definition of the $\ast$ functions. The fact that $g_2^{\rm tw3}$
+disappears is due to the symmetry properties of $\widehat{g}_T^q$, or
+equivalently  is a consequence of the
+Lorentz invariance of QCD interactions, that entails $\int_0^1 dx g_1^a(x) =
+\int_0^1 g_T^q(x)$.
+
+At finite scales, the only way to preserve the validity of the
+Burkhardt-Cottingham sum rule is if
+%that is derived at the cross section level (under suitable assumptions on the
+%high-energy behavior of te hspin-flip amplitude) rather than from an analysis
+%of collinear correlators, as done here, 
+%to be strictly valid, we obtain a
+%strong constraint on the transversity function, 
 \begin{align}
    \int dx\, \frac{1}{x} h_1^q(x) = 0 \ .
 \label{eq:ABsumrule}
 \end{align}
-Interestingly, one can show that this constraint, if valid at any given scale $Q_0$ is conserved through QCD evolution. Even if the BC sum rule is broken either by a $J = 0$ fixed pole with non-polynomial residue \cite{Jaffe:1996zw} or explicitly as, \eg, in the quark target model \cite{Kundu:2001pk} -- i.e., if $g_2$ integrates to a finite but nonzero number -- we obtain that $h_1(x)/x$ must be integrable. This entails a bound on the small $x$ behavior of the transversity,
+Interestingly, one can show that this constraint, if valid at any given scale
+$Q_0$ is conserved through QCD evolution. However, we think that this
+constrain cannot be satisfied in general, since it is broken in perturbative
+QCD~\cite{Kundu:2001pk} and models (see, e.g., \cite{}).
+
+E or explicitly as, \eg, in the quark
+target model \cite{Kundu:2001pk} -- i.e., if $g_2$ integrates to a finite but
+nonzero number -- 
+If we assume that the BC sum rule is broken by a {\em finite} amount, we
+obtain that $h_1(x)/x$ must be integrable, implying a 
+a bound on the small $x$ behavior of the transversity, 
 \begin{align}
   h_1^q(x) \propto x^\epsilon \ \ \ \epsilon>0 \ .
 \label{eq:ABbound}
