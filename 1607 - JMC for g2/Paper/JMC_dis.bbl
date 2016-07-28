@@ -24,18 +24,18 @@
   \bibinfo{pages}{114509} (\bibinfo{year}{2012}).
 %%CITATION = ARXIV:1206.4527;%%
 
-\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins,
-  GlÃ¤ssle, GÃ¶ckeler, Najjar, RÃ¶dl, SchÃ¤fer, Schiel, SÃ¶ldner, and
+\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins, Glässle,
+  Göckeler, Najjar, Rödl, Schäfer, Schiel, Söldner, and
   Sternbeck}}]{Bali:2014nma}
 \bibinfo{author}{\bibfnamefont{G.~S.} \bibnamefont{Bali}},
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Collins}},
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{GlÃ¤ssle}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{GÃ¶ckeler}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Glässle}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Göckeler}},
   \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Najjar}},
-  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{RÃ¶dl}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{SchÃ¤fer}},
+  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{Rödl}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Schäfer}},
   \bibinfo{author}{\bibfnamefont{R.~W.} \bibnamefont{Schiel}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{SÃ¶ldner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Söldner}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sternbeck}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D91}},
   \bibinfo{pages}{054501} (\bibinfo{year}{2015}).
@@ -82,7 +82,7 @@
   \bibinfo{author}{\bibfnamefont{P.~G.} \bibnamefont{Ratcliffe}},
   \bibinfo{journal}{Phys. Rept.} \textbf{\bibinfo{volume}{359}},
   \bibinfo{pages}{1} (\bibinfo{year}{2002}).
-%%CITATION = HEP-PH 0104283;%%
+%%CITATION = HEP-PH/0104283;%%
 
 \bibitem[{\citenamefont{Radici et~al.}(2015)\citenamefont{Radici, Courtoy,
   Bacchetta, and Guagnelli}}]{Radici:2015mwa}
@@ -91,7 +91,7 @@
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
   \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Guagnelli}},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{1505}}, \bibinfo{pages}{123}
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{05}}, \bibinfo{pages}{123}
   (\bibinfo{year}{2015}).
 %%CITATION = ARXIV:1503.03495;%%
 
@@ -140,11 +140,11 @@
   \bibinfo{pages}{212002} (\bibinfo{year}{2015}{\natexlab{b}}).
 %%CITATION = ARXIV:1506.04196;%%
 
-\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, BaeÃŸler,
-  GonzÃ¡lez-Alonso, and Liuti}}]{Courtoy:2015haa}
+\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baeßler,
+  González-Alonso, and Liuti}}]{Courtoy:2015haa}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{BaeÃŸler}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{GonzÃ¡lez-Alonso}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baeßler}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{González-Alonso}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liuti}},
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
   \bibinfo{pages}{162001} (\bibinfo{year}{2015}).
@@ -152,8 +152,9 @@
 
 \bibitem[{\citenamefont{Jaffe}(1996)}]{Jaffe:1996zw}
 \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Jaffe}}
-  (\bibinfo{year}{1996}), {arXiv:hep-ph/9602236}.
-%%CITATION = HEP-PH 9602236;%%
+  (\bibinfo{year}{1996}), {arXiv:hep-ph/9602236 [hep-ph]},
+  \bibinfo{note}{[Lect. Notes Phys.496,178(1997)]}.
+%%CITATION = HEP-PH/9602236;%%
 
 \bibitem[{\citenamefont{Ralston and Soper}(1979)}]{Ralston:1979ys}
 \bibinfo{author}{\bibfnamefont{J.~P.} \bibnamefont{Ralston}} \bibnamefont{and}
@@ -164,23 +165,23 @@
 
 \bibitem[{\citenamefont{Jaffe and Ji}(1991{\natexlab{a}})}]{Jaffe:1991kp}
 \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Jaffe}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ji}}, \bibinfo{journal}{Phys.
-  Rev. Lett.} \textbf{\bibinfo{volume}{67}}, \bibinfo{pages}{552}
-  (\bibinfo{year}{1991}{\natexlab{a}}).
+  \bibinfo{author}{\bibfnamefont{X.-D.} \bibnamefont{Ji}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{67}},
+  \bibinfo{pages}{552} (\bibinfo{year}{1991}{\natexlab{a}}).
 %%CITATION = PRLTA,67,552;%%
 
 \bibitem[{\citenamefont{Jaffe and Ji}(1993)}]{Jaffe:1993xb}
 \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Jaffe}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ji}}, \bibinfo{journal}{Phys.
-  Rev. Lett.} \textbf{\bibinfo{volume}{71}}, \bibinfo{pages}{2547}
-  (\bibinfo{year}{1993}).
-%%CITATION = HEP-PH 9307329;%%
+  \bibinfo{author}{\bibfnamefont{X.-D.} \bibnamefont{Ji}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{2547} (\bibinfo{year}{1993}).
+%%CITATION = HEP-PH/9307329;%%
 
-\bibitem[{\citenamefont{Collins}(1993)}]{Collins:1993kk}
+\bibitem[{\citenamefont{Collins}(1993)}]{Collins:1992kk}
 \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Collins}},
   \bibinfo{journal}{Nucl. Phys.} \textbf{\bibinfo{volume}{B396}},
   \bibinfo{pages}{161} (\bibinfo{year}{1993}).
-%%CITATION = HEP-PH 9208213;%%
+%%CITATION = HEP-PH/9208213;%%
 
 \bibitem[{\citenamefont{Accardi et~al.}(2009)\citenamefont{Accardi, Bacchetta,
   Melnitchouk, and Schlegel}}]{Accardi:2009au}
@@ -188,8 +189,9 @@
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
   \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Melnitchouk}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{0911}}, \bibinfo{pages}{093}
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{11}}, \bibinfo{pages}{093}
   (\bibinfo{year}{2009}).
+%%CITATION = ARXIV:0907.2942;%%
 
 \bibitem[{\citenamefont{Wandzura and Wilczek}(1977)}]{Wandzura:1977qf}
 \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Wandzura}} \bibnamefont{and}
@@ -206,14 +208,14 @@
   \bibnamefont{Stasto}}, \bibinfo{journal}{Phys. Rev.}
   \textbf{\bibinfo{volume}{D77}}, \bibinfo{pages}{085009}
   (\bibinfo{year}{2008}).
-%%CITATION = 0708.2833;%%
+%%CITATION = ARXIV:0708.2833;%%
 
 \bibitem[{\citenamefont{Accardi and Qiu}(2008)}]{Accardi:2008ne}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Accardi}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Qiu}},
   \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{07}}, \bibinfo{pages}{090}
   (\bibinfo{year}{2008}).
-%%CITATION = 0805.1496;%%
+%%CITATION = ARXIV:0805.1496;%%
 
 \bibitem[{\citenamefont{D'Hoker}(2004)}]{D'Hoker:2004aa}
 \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{D'Hoker}},
@@ -245,7 +247,7 @@ ture%20notes/quantum_field_theory.pdf}.
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
   \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{02}}, \bibinfo{pages}{093}
   (\bibinfo{year}{2007}).
-%%CITATION = HEP-PH 0611265;%%
+%%CITATION = HEP-PH/0611265;%%
 
 \bibitem[{\citenamefont{Sato et~al.}(2016)\citenamefont{Sato, Melnitchouk,
   Kuhn, Ethier, and Accardi}}]{Sato:2016tuz}
@@ -271,9 +273,9 @@ ture%20notes/quantum_field_theory.pdf}.
 
 \bibitem[{\citenamefont{Jaffe and Ji}(1991{\natexlab{b}})}]{Jaffe:1990qh}
 \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Jaffe}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{Ji}}, \bibinfo{journal}{Phys.
-  Rev.} \textbf{\bibinfo{volume}{D43}}, \bibinfo{pages}{724}
-  (\bibinfo{year}{1991}{\natexlab{b}}).
+  \bibinfo{author}{\bibfnamefont{X.-D.} \bibnamefont{Ji}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D43}},
+  \bibinfo{pages}{724} (\bibinfo{year}{1991}{\natexlab{b}}).
 %%CITATION = PHRVA,D43,724;%%
 
 \bibitem[{\citenamefont{Stratmann}(1993)}]{Stratmann:1993aw}
@@ -283,15 +285,15 @@ ture%20notes/quantum_field_theory.pdf}.
 %%CITATION = ZEPYA,C60,763;%%
 
 \bibitem[{\citenamefont{Anselmino et~al.}(2013)\citenamefont{Anselmino,
-  Boglione, D'Alesio, Melis, Murgia et~al.}}]{Anselmino:2013vqa}
+  Boglione, D'Alesio, Melis, Murgia, and Prokudin}}]{Anselmino:2013vqa}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Anselmino}},
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Boglione}},
   \bibinfo{author}{\bibfnamefont{U.}~\bibnamefont{D'Alesio}},
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Melis}},
-  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{Phys.Rev.}
-  \textbf{\bibinfo{volume}{D87}}, \bibinfo{pages}{094019}
-  (\bibinfo{year}{2013}).
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{Murgia}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Prokudin}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D87}},
+  \bibinfo{pages}{094019} (\bibinfo{year}{2013}).
 %%CITATION = ARXIV:1303.3822;%%
 
 \bibitem[{\citenamefont{Radici et~al.}(2016)\citenamefont{Radici, Ricci,
@@ -315,7 +317,7 @@ ture%20notes/quantum_field_theory.pdf}.
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Metz}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D65}},
   \bibinfo{pages}{014009} (\bibinfo{year}{2002}).
-%%CITATION = HEP-PH 0107073;%%
+%%CITATION = HEP-PH/0107073;%%
 
 \bibitem[{\citenamefont{Burkardt}(2013)}]{Burkardt:2012sd}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Burkardt}},
