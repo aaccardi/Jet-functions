@@ -1,7 +1,7 @@
 (TeX-add-style-hook "JMC_dis"
  (lambda ()
     (LaTeX-add-bibliographies
-     "mybiblio")
+     "jetbiblio")
     (LaTeX-add-labels
      "e:xifull"
      "e:jetexpansion"
