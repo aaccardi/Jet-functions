@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -11,37 +11,6 @@
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
-
-\bibitem[{\citenamefont{Cirigliano et~al.}(2013)\citenamefont{Cirigliano,
-  Gardner, and Holstein}}]{Cirigliano:2013xha}
-\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Cirigliano}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Gardner}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Holstein}},
-  \bibinfo{journal}{Prog. Part. Nucl. Phys.} \textbf{\bibinfo{volume}{71}},
-  \bibinfo{pages}{93} (\bibinfo{year}{2013}).
-%%CITATION = ARXIV:1303.6953;%%
-
-\bibitem[{\citenamefont{Bhattacharya
-  et~al.}(2015{\natexlab{a}})\citenamefont{Bhattacharya, Cirigliano, Gupta,
-  Lin, and Yoon}}]{Bhattacharya:2015esa}
-\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Bhattacharya}},
-  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Cirigliano}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Gupta}},
-  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{Lin}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Yoon}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
-  \bibinfo{pages}{212002} (\bibinfo{year}{2015}{\natexlab{a}}).
-%%CITATION = ARXIV:1506.04196;%%
-
-\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baeﬂler,
-  Gonz·lez-Alonso, and Liuti}}]{Courtoy:2015haa}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baeﬂler}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gonz·lez-Alonso}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liuti}},
-  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
-  \bibinfo{pages}{162001} (\bibinfo{year}{2015}).
-%%CITATION = ARXIV:1503.06814;%%
 
 \bibitem[{\citenamefont{Green et~al.}(2012)\citenamefont{Green, Negele,
   Pochinsky, Syritsyn, Engelhardt, and Krieg}}]{Green:2012ej}
@@ -73,7 +42,7 @@
 %%CITATION = ARXIV:1412.7336;%%
 
 \bibitem[{\citenamefont{Bhattacharya
-  et~al.}(2015{\natexlab{b}})\citenamefont{Bhattacharya, Cirigliano, Cohen,
+  et~al.}(2015{\natexlab{a}})\citenamefont{Bhattacharya, Cirigliano, Cohen,
   Gupta, Joseph, Lin, and Yoon}}]{Bhattacharya:2015wna}
 \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Bhattacharya}},
   \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Cirigliano}},
@@ -84,7 +53,7 @@
   \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Yoon}}
   (\bibinfo{collaboration}{PNDME}), \bibinfo{journal}{Phys. Rev.}
   \textbf{\bibinfo{volume}{D92}}, \bibinfo{pages}{094511}
-  (\bibinfo{year}{2015}{\natexlab{b}}).
+  (\bibinfo{year}{2015}{\natexlab{a}}).
 %%CITATION = ARXIV:1506.06411;%%
 
 \bibitem[{\citenamefont{Abdel-Rehim et~al.}(2015)}]{Abdel-Rehim:2015owa}
@@ -150,6 +119,37 @@
   \bibinfo{pages}{014009} (\bibinfo{year}{2016}).
 %%CITATION = ARXIV:1505.05589;%%
 
+\bibitem[{\citenamefont{Cirigliano et~al.}(2013)\citenamefont{Cirigliano,
+  Gardner, and Holstein}}]{Cirigliano:2013xha}
+\bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Cirigliano}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Gardner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Holstein}},
+  \bibinfo{journal}{Prog. Part. Nucl. Phys.} \textbf{\bibinfo{volume}{71}},
+  \bibinfo{pages}{93} (\bibinfo{year}{2013}).
+%%CITATION = ARXIV:1303.6953;%%
+
+\bibitem[{\citenamefont{Bhattacharya
+  et~al.}(2015{\natexlab{b}})\citenamefont{Bhattacharya, Cirigliano, Gupta,
+  Lin, and Yoon}}]{Bhattacharya:2015esa}
+\bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Bhattacharya}},
+  \bibinfo{author}{\bibfnamefont{V.}~\bibnamefont{Cirigliano}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Gupta}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{Lin}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Yoon}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
+  \bibinfo{pages}{212002} (\bibinfo{year}{2015}{\natexlab{b}}).
+%%CITATION = ARXIV:1506.04196;%%
+
+\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baeﬂler,
+  Gonz·lez-Alonso, and Liuti}}]{Courtoy:2015haa}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baeﬂler}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gonz·lez-Alonso}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liuti}},
+  \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
+  \bibinfo{pages}{162001} (\bibinfo{year}{2015}).
+%%CITATION = ARXIV:1503.06814;%%
+
 \bibitem[{\citenamefont{Jaffe}(1996)}]{Jaffe:1996zw}
 \bibinfo{author}{\bibfnamefont{R.~L.} \bibnamefont{Jaffe}}
   (\bibinfo{year}{1996}), {arXiv:hep-ph/9602236 [hep-ph]},
@@ -200,13 +200,6 @@
   \bibinfo{pages}{195} (\bibinfo{year}{1977}).
 %%CITATION = PHLTA,B72,195;%%
 
-\bibitem[{\citenamefont{Accardi and Qiu}(2008)}]{Accardi:2008ne}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Accardi}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Qiu}},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{07}}, \bibinfo{pages}{090}
-  (\bibinfo{year}{2008}).
-%%CITATION = ARXIV:0805.1496;%%
-
 \bibitem[{\citenamefont{Collins et~al.}(2008)\citenamefont{Collins, Rogers, and
   Stasto}}]{Collins:2007ph}
 \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Collins}},
@@ -217,23 +210,19 @@
   (\bibinfo{year}{2008}).
 %%CITATION = ARXIV:0708.2833;%%
 
-\bibitem[{\citenamefont{Bacchetta et~al.}(2007)\citenamefont{Bacchetta, Diehl,
-  Goeke, Metz, Mulders, and Schlegel}}]{Bacchetta:2006tn}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Diehl}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Goeke}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Metz}},
-  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
-  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{02}}, \bibinfo{pages}{093}
-  (\bibinfo{year}{2007}).
-%%CITATION = HEP-PH/0611265;%%
+\bibitem[{\citenamefont{Accardi and Qiu}(2008)}]{Accardi:2008ne}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Accardi}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{J.-W.} \bibnamefont{Qiu}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{07}}, \bibinfo{pages}{090}
+  (\bibinfo{year}{2008}).
+%%CITATION = ARXIV:0805.1496;%%
 
 \bibitem[{\citenamefont{D'Hoker}(2004)}]{D'Hoker:2004aa}
 \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{D'Hoker}},
   \emph{\bibinfo{title}{{Quantum Field Theory - Part 1}}}
   (\bibinfo{year}{2004}),
-  \urlprefix\url{http://www.pa.ucla.edu/sites/default/files/files/dhoker%20lecture%20notes/quantum_field_theory.pdf}.
+  \urlprefix\url{http://www.pa.ucla.edu/sites/default/files/files/dhoker%20lec%
+ture%20notes/quantum_field_theory.pdf}.
 
 \bibitem[{\citenamefont{Rom\~ao}(2013)}]{Romao:2013aa}
 \bibinfo{author}{\bibfnamefont{J.~C.} \bibnamefont{Rom\~ao}},
@@ -247,6 +236,18 @@
   (\bibinfo{publisher}{Cambridge University Press}, \bibinfo{year}{2005}), ISBN
   \bibinfo{isbn}{9780521670531, 9780511252044}.
 %%CITATION = INSPIRE-406190;%%
+
+\bibitem[{\citenamefont{Bacchetta et~al.}(2007)\citenamefont{Bacchetta, Diehl,
+  Goeke, Metz, Mulders, and Schlegel}}]{Bacchetta:2006tn}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Diehl}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Goeke}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Metz}},
+  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
+  \bibinfo{journal}{JHEP} \textbf{\bibinfo{volume}{02}}, \bibinfo{pages}{093}
+  (\bibinfo{year}{2007}).
+%%CITATION = HEP-PH/0611265;%%
 
 \bibitem[{\citenamefont{Sato et~al.}(2016)\citenamefont{Sato, Melnitchouk,
   Kuhn, Ethier, and Accardi}}]{Sato:2016tuz}
@@ -410,28 +411,5 @@
 \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Flay}} \bibnamefont{et~al.}
   (\bibinfo{year}{2016}), {arXiv:1603.03612 [nucl-ex]}.
 %%CITATION = ARXIV:1603.03612;%%
-
-\bibitem[{\citenamefont{Efremov et~al.}(1997)\citenamefont{Efremov, Teryaev,
-  and Leader}}]{Efremov:1996hd}
-\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Efremov}},
-  \bibinfo{author}{\bibfnamefont{O.~V.} \bibnamefont{Teryaev}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Leader}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D55}},
-  \bibinfo{pages}{4307} (\bibinfo{year}{1997}).
-%%CITATION = HEP-PH/9607217;%%
-
-\bibitem[{\citenamefont{Bacchetta and Radici}(2003)}]{Bacchetta:2002ux}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D67}},
-  \bibinfo{pages}{094002} (\bibinfo{year}{2003}).
-%%CITATION = HEP-PH/0212300;%%
-
-\bibitem[{\citenamefont{Bacchetta and Radici}(2004)}]{Bacchetta:2003vn}
-\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}} \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D69}},
-  \bibinfo{pages}{074026} (\bibinfo{year}{2004}).
-%%CITATION = HEP-PH/0311173;%%
 
 \end{thebibliography}
