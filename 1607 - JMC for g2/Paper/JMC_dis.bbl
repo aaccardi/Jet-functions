@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{51}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -33,11 +33,11 @@
   \bibinfo{pages}{212002} (\bibinfo{year}{2015}{\natexlab{a}}).
 %%CITATION = ARXIV:1506.04196;%%
 
-\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baeßler,
-  González-Alonso, and Liuti}}]{Courtoy:2015haa}
+\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baessler,
+  Gonz\'alez-Alonso, and Liuti}}]{Courtoy:2015haa}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baeßler}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{González-Alonso}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baessler}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Gonz\'alez-Alonso}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liuti}},
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
   \bibinfo{pages}{162001} (\bibinfo{year}{2015}).
@@ -55,18 +55,18 @@
   \bibinfo{pages}{114509} (\bibinfo{year}{2012}).
 %%CITATION = ARXIV:1206.4527;%%
 
-\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins, Glässle,
-  Göckeler, Najjar, Rödl, Schäfer, Schiel, Söldner, and
+\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins, Gl\"assle,
+  G\"ockeler, Najjar, R\"odl, Sch\"afer, Schiel, S\"oldner, and
   Sternbeck}}]{Bali:2014nma}
 \bibinfo{author}{\bibfnamefont{G.~S.} \bibnamefont{Bali}},
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Collins}},
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Glässle}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Göckeler}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Gl\"assle}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{G\"ockeler}},
   \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Najjar}},
-  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{Rödl}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Schäfer}},
+  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{R\"odl}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sch\"afer}},
   \bibinfo{author}{\bibfnamefont{R.~W.} \bibnamefont{Schiel}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Söldner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{S\"oldner}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sternbeck}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D91}},
   \bibinfo{pages}{054501} (\bibinfo{year}{2015}).
@@ -199,6 +199,15 @@
   \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B72}},
   \bibinfo{pages}{195} (\bibinfo{year}{1977}).
 %%CITATION = PHLTA,B72,195;%%
+
+\bibitem[{\citenamefont{Afanasev et~al.}(2008)\citenamefont{Afanasev, Strikman,
+  and Weiss}}]{Afanasev:2007ii}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Afanasev}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Strikman}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{Weiss}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D77}},
+  \bibinfo{pages}{014028} (\bibinfo{year}{2008}).
+%%CITATION = ARXIV:0709.0901;%%
 
 \bibitem[{\citenamefont{Accardi and Qiu}(2008)}]{Accardi:2008ne}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Accardi}} \bibnamefont{and}
@@ -372,6 +381,15 @@
   \bibinfo{pages}{074008} (\bibinfo{year}{2011}).
 %%CITATION = ARXIV:1008.5322;%%
 
+\bibitem[{\citenamefont{Kovchegov et~al.}(2017)\citenamefont{Kovchegov,
+  Pitonyak, and Sievert}}]{Kovchegov:2016zex}
+\bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Kovchegov}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Pitonyak}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~D.} \bibnamefont{Sievert}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D95}},
+  \bibinfo{pages}{014033} (\bibinfo{year}{2017}).
+%%CITATION = ARXIV:1610.06197;%%
+
 \bibitem[{\citenamefont{Burkardt}(2013)}]{Burkardt:2012sd}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Burkardt}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D88}},
@@ -411,15 +429,6 @@
   (\bibinfo{year}{2016}), {arXiv:1603.03612 [nucl-ex]}.
 %%CITATION = ARXIV:1603.03612;%%
 
-\bibitem[{\citenamefont{Efremov et~al.}(1997)\citenamefont{Efremov, Teryaev,
-  and Leader}}]{Efremov:1996hd}
-\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Efremov}},
-  \bibinfo{author}{\bibfnamefont{O.~V.} \bibnamefont{Teryaev}},
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Leader}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D55}},
-  \bibinfo{pages}{4307} (\bibinfo{year}{1997}).
-%%CITATION = HEP-PH/9607217;%%
-
 \bibitem[{\citenamefont{Bacchetta and Radici}(2003)}]{Bacchetta:2002ux}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
@@ -433,5 +442,20 @@
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D69}},
   \bibinfo{pages}{074026} (\bibinfo{year}{2004}).
 %%CITATION = HEP-PH/0311173;%%
+
+\bibitem[{\citenamefont{Efremov et~al.}(1997)\citenamefont{Efremov, Teryaev,
+  and Leader}}]{Efremov:1996hd}
+\bibinfo{author}{\bibfnamefont{A.~V.} \bibnamefont{Efremov}},
+  \bibinfo{author}{\bibfnamefont{O.~V.} \bibnamefont{Teryaev}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{Leader}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D55}},
+  \bibinfo{pages}{4307} (\bibinfo{year}{1997}).
+%%CITATION = HEP-PH/9607217;%%
+
+\bibitem[{\citenamefont{Schlegel}(2013)}]{Schlegel:2012ve}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D87}},
+  \bibinfo{pages}{034006} (\bibinfo{year}{2013}).
+%%CITATION = ARXIV:1211.3579;%%
 
 \end{thebibliography}
