@@ -10,21 +10,23 @@
      "eq:jetfnsprops"
      "eq:jet_vs_spectral"
      "fig:handbags"
-     "eq:F2"
      "eq:mjet"
-     "eq:xi2_chiral_cond"
      "e:xi_A"
      "eq:SIDIS_to_DIS"
-     "eq:SIDIS_to_DIS_TMDlevel"
+     "eq:SIDIS_to_DIS_TMDlevel1"
+     "eq:SIDIS_to_DIS_TMDlevel2"
      "eq:Wsidis_ini"
      "e:crossdis"
+     "e:FLLint"
      "e:FUTint"
      "e:FLTint"
      "e:g2"
      "f:g2contrib"
+     "sec:moments"
      "eq:BC"
      "eq:ABsumrule"
      "eq:ABbound"
+     "e:d1"
      "fig:epl_emn_h")
     (TeX-add-symbols
      '("todo" 1)
@@ -44,6 +46,7 @@
      "mj"
      "mq"
      "mjs"
+     "id"
      "AAcom"
      "AAmod")
     (TeX-run-style-hooks
