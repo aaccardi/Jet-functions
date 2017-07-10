@@ -1,0 +1,2 @@
+#/usr/bin/bash
+zip JMC_dis.zip JMC_dis.tex JMC_dis.bbl epl_emn_h_h_X.eps epl_emn_h_X.eps g2contribN.pdf g2contrib.pdf jetdiagram0.eps jetdiagram1.eps jetdiagram2.eps myrevtex.bst
