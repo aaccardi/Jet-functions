@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{59}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -257,6 +257,12 @@
   \bibinfo{isbn}{9780521670531, 9780511252044}.
 %%CITATION = INSPIRE-406190;%%
 
+\bibitem[{\citenamefont{Roberts}(2017)}]{Roberts:2016vyn}
+\bibinfo{author}{\bibfnamefont{C.~D.} \bibnamefont{Roberts}},
+  \bibinfo{journal}{Few Body Syst.} \textbf{\bibinfo{volume}{58}},
+  \bibinfo{pages}{5} (\bibinfo{year}{2017}).
+%%CITATION = ARXIV:1606.03909;%%
+
 \bibitem[{\citenamefont{Mulders and Tangerman}(1996)}]{Mulders:1995dh}
 \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{R.~D.} \bibnamefont{Tangerman}},
@@ -389,6 +395,21 @@
   \bibinfo{pages}{074008} (\bibinfo{year}{2011}).
 %%CITATION = ARXIV:1008.5322;%%
 
+\bibitem[{\citenamefont{Hayashigaki et~al.}(1997)\citenamefont{Hayashigaki,
+  Kanazawa, and Koike}}]{Hayashigaki:1997dn}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Hayashigaki}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Kanazawa}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{Koike}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D56}},
+  \bibinfo{pages}{7350} (\bibinfo{year}{1997}).
+%%CITATION = HEP-PH/9707208;%%
+
+\bibitem[{\citenamefont{Vogelsang}(1998)}]{Vogelsang:1997ak}
+\bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Vogelsang}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D57}},
+  \bibinfo{pages}{1886} (\bibinfo{year}{1998}).
+%%CITATION = HEP-PH/9706511;%%
+
 \bibitem[{\citenamefont{Kovchegov et~al.}(2017)\citenamefont{Kovchegov,
   Pitonyak, and Sievert}}]{Kovchegov:2016zex}
 \bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Kovchegov}},
@@ -397,6 +418,16 @@
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D95}},
   \bibinfo{pages}{014033} (\bibinfo{year}{2017}).
 %%CITATION = ARXIV:1610.06197;%%
+
+\bibitem[{\citenamefont{Kirschner et~al.}(1997)\citenamefont{Kirschner,
+  Mankiewicz, Schafer, and Szymanowski}}]{Kirschner:1996jj}
+\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Kirschner}},
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Mankiewicz}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Schafer}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{Szymanowski}},
+  \bibinfo{journal}{Z. Phys.} \textbf{\bibinfo{volume}{C74}},
+  \bibinfo{pages}{501} (\bibinfo{year}{1997}).
+%%CITATION = HEP-PH/9606267;%%
 
 \bibitem[{\citenamefont{Burkardt}(2013)}]{Burkardt:2012sd}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Burkardt}},
@@ -437,6 +468,14 @@
   (\bibinfo{year}{2016}), {arXiv:1603.03612 [nucl-ex]}.
 %%CITATION = ARXIV:1603.03612;%%
 
+\bibitem[{\citenamefont{Ethier et~al.}(2017)\citenamefont{Ethier, Sato, and
+  Melnitchouk}}]{Ethier:2017zbq}
+\bibinfo{author}{\bibfnamefont{J.~J.} \bibnamefont{Ethier}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Sato}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Melnitchouk}}
+  (\bibinfo{year}{2017}), {arXiv:1705.05889 [hep-ph]}.
+%%CITATION = ARXIV:1705.05889;%%
+
 \bibitem[{\citenamefont{Bacchetta and Radici}(2003)}]{Bacchetta:2002ux}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Radici}},
@@ -459,6 +498,18 @@
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D55}},
   \bibinfo{pages}{4307} (\bibinfo{year}{1997}).
 %%CITATION = HEP-PH/9607217;%%
+
+\bibitem[{\citenamefont{Dudek et~al.}(2012)}]{Dudek:2012vr}
+\bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Dudek}} \bibnamefont{et~al.},
+  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{A48}},
+  \bibinfo{pages}{187} (\bibinfo{year}{2012}).
+%%CITATION = ARXIV:1208.1244;%%
+
+\bibitem[{\citenamefont{Accardi et~al.}(2016)}]{Accardi:2012qut}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Accardi}} \bibnamefont{et~al.},
+  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{A52}},
+  \bibinfo{pages}{268} (\bibinfo{year}{2016}).
+%%CITATION = ARXIV:1212.1701;%%
 
 \bibitem[{\citenamefont{Schlegel}(2013)}]{Schlegel:2012ve}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Schlegel}},
