@@ -1,0 +1,70 @@
+We thank the reviewer for the thoughtful comments and questions about our work, that we have carefully considered and incorporated in the revised version of our paper. In the following, we comment upon each point raised by the reviewer, and refer to the appropriate place in the text where major changes have occurred. (As the numbering of the equations has changed slightly in the revision, in our answers we refer to the new numbering.) We are confident the new version wil satsify the Referee, but will be glad to make further improvements should teh discusssions need to be clarified further.
+
+
+> 1. The new term, the last term in Eq. (21), has the non-perturbative
+> mass scale M_q and the (perturbative) current quark mass m_q come in
+> on the same footing. Have the authors tried to verify their
+> conclusions in an explicit calculation? For instance, perhaps
+> calculating the correlator \Xi from (4) in some non-perturbative model
+> may help illustrate the fact that M_q - m_q is in fact non-zero.
+
+We have indeed checked the behavior of the Mq term in a model with a pseudoscalar Yukawa interaction modeling the uark fragmentation process. This clearly show that Mq>mq. We added a comment to this effect at the end of Section II together with a revised discussion of the estimate of the magnitude of Mq, see next.
+
+
+> 2. If I understood the arguments above Eq. (9) correctly,
+> strictly-speaking the conclusion there is that M_q < O (100 MeV), not
+> equal to O (100 MeV) as Eq. (9) has. In fact, {\bar J}_2 can be very
+> small as far as one can tell, leading to M_q = m_q. Some
+> clarifications would help here.
+
+The Referee is right in noticing that nothing a pripori prevents Mq to become smaller than ~100 MeV. Our estimate was based on the fact that one can expect the two-particle continuum to open up at (mq+m_pi)~m_pi~Lambda_QCD, and therefore the value of mu averaged over the J2 distribution should be around our originally quoted value. We have revised this estimate taking also into acocunt that a quark is in fact not a physical asymptotic state, and Mq could be smaller than that, and now quotw Mq~10-100 MeV.
+
+Note that, having exactly Mq=mq would imply the existence of a so far unknown symmetry or otherwise general constraint that would be extremely interesting on its own. Although we judge this unlikely, our paper may, if nothing else, encourage people to prove us wrong and discover a new feature of QCD.
+
+The modified discussion, incorporating alsocomment #1, can be found at the end of Section II.
+
+
+> 3. The sum rule (31) raises the question of whether the integral on
+> its right-hand side is finite. It is hard for me to imagine a
+> realistic scenario in which it is. In perturbation theory unpolarized
+> TMDs at small x scale as (1/x)^{1+\epsilon_1}, where \epsilon_1 is an
+> order-\alpha_s positive perturbative correction, while 1 in the power
+> is ultimately determined by the gluon spin =1. Some polarized TMDs,
+> such as helicity, scale as (1/x)^{\epsilon_2} at small x with
+> \epsilon_2 an order-\sqrt{\alpha_s} positive perturbative correction,
+> as found e.g. in Ref. [41]. Note that neither of those behaviors gives
+> a finite right-hand side of (31). The scenario considered by the
+> authors in Eq. (32) corresponds to negative \epsilon_2: while I know
+> of no theorem requiring \epsilon_2 > 0, I also know of no perturbative
+> calculation where \epsilon_2 < 0 either. (Furthermore, in N=4 SYM
+> theory, where the unpolarized intercept is known to a very high order
+> in perturbation theory, the series in \alpha_s changes sign only every
+> other term, see Eq. (5.1) in 1504.06640.) Saturation effects at very
+> low x can at most effectively put \epsilon_2 =0, still not making the
+> right-hand side of (31) finite... So, as a friendly colleague I urge
+> the authors to rethink their conclusions very carefully.
+
+We agree with the referee, and in fact our original discussion was somewhat confusing. We have enlarged teh scope of the discussion and reviewed some perturbative and resummed results on the small x behavior of h1. The small-x physics of the h1 function in comparison to g1 is indeed an interesting topic of research, that can now also be accessed experimentally thanks to our extended WW and BC relations.
+
+The modified discussion can be found in teh paragraph above Eq.()
+
+
+
+> 4. Here are some minor corrections:
+>
+> -- Ref. [22] has 3 authors, but only two are mentioned explicitly in
+>    the text three lines above Eq. (1).
+>
+> -- The kinematics of the diagrams in Fig. 1 is not defined: e.g., is
+>    the proton moving in the light-cone "+" or "-" direction? This is
+>    needed to better understand the discussion between Eqs. (6) and
+>    (7).
+>
+> -- The equation in the text two lines above Eq. (9) should have m_q^2
+>    (instead of m_q) inside the delta-function.
+
+We thank the referee also for this level of attention to our work, that has indeed helped us to improve the article.
+
+
+
+

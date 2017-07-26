@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{60}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -263,6 +263,16 @@
   \bibinfo{pages}{5} (\bibinfo{year}{2017}).
 %%CITATION = ARXIV:1606.03909;%%
 
+\bibitem[{\citenamefont{Bacchetta et~al.}(2001)\citenamefont{Bacchetta, Kundu,
+  Metz, and Mulders}}]{Bacchetta:2001di}
+\bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Bacchetta}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Kundu}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Metz}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}},
+  \bibinfo{journal}{Phys. Lett.} \textbf{\bibinfo{volume}{B506}},
+  \bibinfo{pages}{155} (\bibinfo{year}{2001}).
+%%CITATION = HEP-PH/0102278;%%
+
 \bibitem[{\citenamefont{Mulders and Tangerman}(1996)}]{Mulders:1995dh}
 \bibinfo{author}{\bibfnamefont{P.~J.} \bibnamefont{Mulders}} \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{R.~D.} \bibnamefont{Tangerman}},
@@ -410,15 +420,6 @@
   \bibinfo{pages}{1886} (\bibinfo{year}{1998}).
 %%CITATION = HEP-PH/9706511;%%
 
-\bibitem[{\citenamefont{Kovchegov et~al.}(2017)\citenamefont{Kovchegov,
-  Pitonyak, and Sievert}}]{Kovchegov:2016zex}
-\bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Kovchegov}},
-  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Pitonyak}}, \bibnamefont{and}
-  \bibinfo{author}{\bibfnamefont{M.~D.} \bibnamefont{Sievert}},
-  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D95}},
-  \bibinfo{pages}{014033} (\bibinfo{year}{2017}).
-%%CITATION = ARXIV:1610.06197;%%
-
 \bibitem[{\citenamefont{Kirschner et~al.}(1997)\citenamefont{Kirschner,
   Mankiewicz, Schafer, and Szymanowski}}]{Kirschner:1996jj}
 \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{Kirschner}},
@@ -428,6 +429,15 @@
   \bibinfo{journal}{Z. Phys.} \textbf{\bibinfo{volume}{C74}},
   \bibinfo{pages}{501} (\bibinfo{year}{1997}).
 %%CITATION = HEP-PH/9606267;%%
+
+\bibitem[{\citenamefont{Kovchegov et~al.}(2017)\citenamefont{Kovchegov,
+  Pitonyak, and Sievert}}]{Kovchegov:2016zex}
+\bibinfo{author}{\bibfnamefont{Y.~V.} \bibnamefont{Kovchegov}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{Pitonyak}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.~D.} \bibnamefont{Sievert}},
+  \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D95}},
+  \bibinfo{pages}{014033} (\bibinfo{year}{2017}).
+%%CITATION = ARXIV:1610.06197;%%
 
 \bibitem[{\citenamefont{Burkardt}(2013)}]{Burkardt:2012sd}
 \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Burkardt}},
