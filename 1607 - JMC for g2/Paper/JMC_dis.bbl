@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{62}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -33,15 +33,33 @@
   \bibinfo{pages}{212002} (\bibinfo{year}{2015}{\natexlab{a}}).
 %%CITATION = ARXIV:1506.04196;%%
 
-\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, Baeßler,
-  González-Alonso, and Liuti}}]{Courtoy:2015haa}
+\bibitem[{\citenamefont{Courtoy et~al.}(2015)\citenamefont{Courtoy, BaeÃŸler,
+  GonzÃ¡lez-Alonso, and Liuti}}]{Courtoy:2015haa}
 \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Courtoy}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Baeßler}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{González-Alonso}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{BaeÃŸler}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{GonzÃ¡lez-Alonso}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Liuti}},
   \bibinfo{journal}{Phys. Rev. Lett.} \textbf{\bibinfo{volume}{115}},
   \bibinfo{pages}{162001} (\bibinfo{year}{2015}).
 %%CITATION = ARXIV:1503.06814;%%
+
+\bibitem[{\citenamefont{Tomalak}(2017)}]{Tomalak:2017owk}
+\bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{Tomalak}},
+  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{C77}},
+  \bibinfo{pages}{517} (\bibinfo{year}{2017}).
+%%CITATION = ARXIV:1701.05514;%%
+
+\bibitem[{\citenamefont{Yamanaka et~al.}(2017)\citenamefont{Yamanaka, Sahoo,
+  Yoshinaga, Sato, Asahi, and Das}}]{Yamanaka:2017mef}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Yamanaka}},
+  \bibinfo{author}{\bibfnamefont{B.~K.} \bibnamefont{Sahoo}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Yoshinaga}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{Sato}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{Asahi}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~P.} \bibnamefont{Das}},
+  \bibinfo{journal}{Eur. Phys. J.} \textbf{\bibinfo{volume}{A53}},
+  \bibinfo{pages}{54} (\bibinfo{year}{2017}).
+%%CITATION = ARXIV:1703.01570;%%
 
 \bibitem[{\citenamefont{Green et~al.}(2012)\citenamefont{Green, Negele,
   Pochinsky, Syritsyn, Engelhardt, and Krieg}}]{Green:2012ej}
@@ -55,18 +73,18 @@
   \bibinfo{pages}{114509} (\bibinfo{year}{2012}).
 %%CITATION = ARXIV:1206.4527;%%
 
-\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins, Glässle,
-  Göckeler, Najjar, Rödl, Schäfer, Schiel, Söldner, and
+\bibitem[{\citenamefont{Bali et~al.}(2015)\citenamefont{Bali, Collins,
+  GlÃ¤ssle, GÃ¶ckeler, Najjar, RÃ¶dl, SchÃ¤fer, Schiel, SÃ¶ldner, and
   Sternbeck}}]{Bali:2014nma}
 \bibinfo{author}{\bibfnamefont{G.~S.} \bibnamefont{Bali}},
   \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{Collins}},
-  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{Glässle}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{Göckeler}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{GlÃ¤ssle}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{GÃ¶ckeler}},
   \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{Najjar}},
-  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{Rödl}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Schäfer}},
+  \bibinfo{author}{\bibfnamefont{R.~H.} \bibnamefont{RÃ¶dl}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{SchÃ¤fer}},
   \bibinfo{author}{\bibfnamefont{R.~W.} \bibnamefont{Schiel}},
-  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{Söldner}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{W.}~\bibnamefont{SÃ¶ldner}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{Sternbeck}},
   \bibinfo{journal}{Phys. Rev.} \textbf{\bibinfo{volume}{D91}},
   \bibinfo{pages}{054501} (\bibinfo{year}{2015}).

@@ -98,7 +98,7 @@ providing new information on the transversity function, as well as an extension 
 \section{Introduction}
 
 The tensor charge is a fundamental property of the nucleon that is at
-present poorly constrained but of fundamental importance, not the least because its knowledge can also be used to put constraints on searches for physics beyond the Standard Model~\cite{Cirigliano:2013xha,Bhattacharya:2015esa,Courtoy:2015haa}.
+present poorly constrained but of fundamental importance, not the least because its knowledge can also be used to put constraints on searches for physics beyond the Standard Model~\cite{Cirigliano:2013xha,Bhattacharya:2015esa,Courtoy:2015haa,Tomalak:2017owk,Yamanaka:2017mef}.
 The tensor charge has been estimated in lattice QCD (see, \eg,
 \cite{Green:2012ej,Bali:2014nma,Bhattacharya:2015wna,Abdel-Rehim:2015owa,Bhattacharya:2016zcn}), but
 only limited information is available from direct measurements. Its experimental extraction requires first of all flavor-separated measurements of the so-called transversity parton distribution function,
@@ -172,19 +172,19 @@ representation of the cut quark propagator (see, e.g., Sec.~6.3 of
 \cite{D'Hoker:2004aa} and Sec.~2.7.2 of \cite{Romao:2013aa}),
 \begin{align} 
   \Xi(l) =  
-  \int d \mu^2 \big[ J_1 (\mu^2)\,\mu\,\id + J_2 (\mu^2)\,\lslash \big] \,
-  \delta(l^2 -\mu^2) \ ,
+  \int d \sigma^2 \big[ J_1 (\sigma^2)\,\sigma\,\id + J_2 (\sigma^2)\,\lslash \big] \,
+  \delta(l^2 -\sigma^2) \ ,
 \label{e:jetspectral}
 \end{align}
-where $\mu^2$ can be interpreted as the invariant mass of the current jet, {\it
+where $\sigma^2$ can be interpreted as the invariant mass of the current jet, {\it
   i.e.}, of the particles going through the cut in the top blob of
 Fig.\ref{fig:handbags}(a). The $J_i$ are the spectral functions of the
 quark propagator, also called ``jet functions'' in
 \cite{Accardi:2008ne}, and can be interpreted as current-jet mass distributions. As a consequence of positivity constraints and CPT invariance, these satisfy \cite{D'Hoker:2004aa,Romao:2013aa,Weinberg:1995mt}
 \begin{align}
-  J_2(\mu^2) \geq J_1(\mu^2) \geq 0
+  J_2(\sigma^2) \geq J_1(\sigma^2) \geq 0
   \hspace*{0.5cm} \text{and} \hspace*{0.5cm}
-  \int d\mu^2 J_2(\mu^2) = 1 \ .
+  \int d\sigma^2 J_2(\sigma^2) = 1 \ .
 \label{eq:jetfnsprops}
 \end{align}
 From a comparison of Eqs.\eqref{e:jetexpansion} and \eqref{e:jetspectral}, one can see that 
@@ -215,16 +215,16 @@ attention to effects of order ${\cal O}(1/Q)$, we can neglect $k^-$ compared to 
 \end{equation} 
 The neglected ${\bm l_T}$-dependent and higher twist terms only contribute to ${\cal O}(1/Q^2)$ to the inclusive cross section. Note that thanks to Eq.~\eqref{eq:jetfnsprops} we obtain
 \begin{align}
-\xi_1 &= \int d\mu^2 \frac{\mu}{\Lambda} J_1(\mu^2) 
+\xi_1 &= \int d\sigma^2 \frac{\sigma}{\Lambda} J_1(\sigma^2) 
        \equiv \frac{\mj}{\Lambda},
 &
-\xi_2 &= \int d\mu^2 J_2(\mu^2) = 1 \ ,
+\xi_2 &= \int d\sigma^2 J_2(\sigma^2) = 1 \ ,
 \end{align} 
 where $\mj$ can be interpreted as the average invariant mass produced in the spin-flip fragmentation processes of a quark of flavor $q$.
 
 It is important to notice that, while $\xi_2=1$ exactly due to CPT invariance
 (see Sec.~10.7 of Ref.~\cite{Weinberg:1995mt}), the jet mass
-$\mj < \int d\mu^2 \mu \, J_2(\mu^2)$ is dynamically determined. From the analytic properties of the spectral functions we expect that $J_2(\mu^2) = Z \delta(\mu^2-m_q^2) + \bar J_2(\mu^2) \theta (\mu^2-m_\pi^2)$, with $Z<1$ and the continuum starting at $m_\pi$ (the mass of the pion) due to color confinement effects, indicating $M_q=O(\Lambda_{QCD})$. However, in a dynamical confinement scenario, the spectral function $J_2$ needs not be positive definite \cite{Roberts:2016vyn} and we therefore estimate
+$\mj < \int d\sigma^2 \sigma \, J_2(\sigma^2)$ is dynamically determined. From the analytic properties of the spectral functions we expect that $J_2(\sigma^2) = Z \delta(\sigma^2-m_q^2) + \bar J_2(\sigma^2) \theta (\sigma^2-m_\pi^2)$, with $Z<1$ and the continuum starting at $m_\pi$ (the mass of the pion) due to color confinement effects, indicating $M_q=O(\Lambda_{QCD})$. However, in a dynamical confinement scenario, the spectral function $J_2$ needs not be positive definite \cite{Roberts:2016vyn} and we therefore estimate
 $
   M_q\sim 10-100 \text{\ MeV}.
 $
@@ -624,7 +624,7 @@ function can be used to constrain the jet mass parameter $M_q$, the transversity
 distribution function and the nucleon tensor charge, helping their extraction from other observables, e.g., in electron-positron annihilation and semi-inclusive DIS. Knowledge of the jet mass parameter and of the transversity distribution will eventually be needed for a precise extraction of pure twist-3 terms from the $g_2$ structure function, or from transverse target single spin asymmetries \cite{Schlegel:2012ve}.
 
 Finally, studying and classifying all the contributions of jet correlators to single and double hadron production in electron-positron annihilation events will open up a rich phenomenology. Measurements in the asymptotically large $Q^2$ regime will provide access to the integral of the $J_1$ jet function, i.e., to the jet-mass parameter $\mj$, and therefore (in conjunction with precise measurements or lattice QCD calculations of the first $h_1$ moment) also of the target's tensor charge through the modified ETL sum rule. 
-Equally interesting is the possibility to experimentally measure, at finite values of $Q^2$, the momentum dependence of the jet functions $J_1$ and $J_2$, that enter structure functions integrated only up to $\mu^2=Q^2(1/x_B-1)$~\cite{Accardi:2008ne}. In other words, it may become possible to experimentally access also the quark's spectral function itself.
+Equally interesting is the possibility to experimentally measure, at finite values of $Q^2$, the momentum dependence of the jet functions $J_1$ and $J_2$, that enter structure functions integrated only up to $\sigma^2=Q^2(1/x_B-1)$~\cite{Accardi:2008ne}. In other words, it may become possible to experimentally access also the quark's spectral function itself.
 
 
 
